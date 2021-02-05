@@ -4,3 +4,8 @@ C:\GitHub\RoboCup2020\C#\Constants\obj\Debug\Constants.csproj.CoreCompileInputs.
 C:\GitHub\RoboCup2020\C#\Constants\obj\Debug\Constants.dll
 C:\GitHub\RoboCup2020\C#\Constants\obj\Debug\Constants.pdb
 C:\GitHub\RoboCup2020\C#\Constants\obj\Debug\Constants.csprojAssemblyReference.cache
+C:\Github\ProjetRobotPhase3\Constants\bin\Debug\Constants.dll
+C:\Github\ProjetRobotPhase3\Constants\bin\Debug\Constants.pdb
+C:\Github\ProjetRobotPhase3\Constants\obj\Debug\Constants.csprojAssemblyReference.cache
+C:\Github\ProjetRobotPhase3\Constants\obj\Debug\Constants.dll
+C:\Github\ProjetRobotPhase3\Constants\obj\Debug\Constants.pdb

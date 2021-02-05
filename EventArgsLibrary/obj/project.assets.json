@@ -835,20 +835,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vgies\\.nuget\\packages\\": {}
+    "C:\\Users\\GEII Robot\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj",
+      "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj",
       "projectName": "EventArgsLibrary",
-      "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj",
-      "packagesPath": "C:\\Users\\vgies\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\obj\\",
+      "projectPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj",
+      "packagesPath": "C:\\Users\\GEII Robot\\.nuget\\packages\\",
+      "outputPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\vgies\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GEII Robot\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -861,14 +861,14 @@
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
-              "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj"
+            "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj"
             },
-            "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
-              "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
+            "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
             },
-            "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
-              "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj"
+            "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj"
             }
           }
         }

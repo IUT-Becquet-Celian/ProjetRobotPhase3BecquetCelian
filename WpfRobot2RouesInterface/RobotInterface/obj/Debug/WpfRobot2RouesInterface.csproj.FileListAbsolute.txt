@@ -69,7 +69,6 @@ C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\Wor
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\WpfAsservissementDisplay.dll
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\WpfOscilloscopeControl.dll
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\WpfWorldMapDisplay.dll
-C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\HeatMap.dll
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\Constants.pdb
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\EventArgsLibrary.pdb
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\Utilities.pdb
@@ -77,12 +76,10 @@ C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\Wor
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\WpfAsservissementDisplay.pdb
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\WpfOscilloscopeControl.pdb
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\WpfWorldMapDisplay.pdb
-C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\HeatMap.pdb
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\WpfRobot2RouesInterface.baml
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\WpfRobot2RouesInterface.g.cs
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\ResourcesWPF.baml
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\RobotInterface.g.resources
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\RobotInterface.Properties.Resources.resources
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\WpfRobot2RouesInterface.csproj.GenerateResource.cache
-C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\WpfRobot2RouesInterface.csproj.CoreCompileInputs.cache
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\WpfRobot2RouesInterface.csproj.CopyComplete

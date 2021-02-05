@@ -25,7 +25,6 @@ C:\GitHub\RoboCup2020\C#\MessageProcessor\bin\Debug\ZeroFormatter.Interfaces.dll
 C:\GitHub\RoboCup2020\C#\MessageProcessor\bin\Debug\PerformanceMonitorTools.dll
 C:\GitHub\RoboCup2020\C#\MessageProcessor\bin\Debug\PerformanceMonitorTools.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\obj\Debug\MessageProcessor.csprojAssemblyReference.cache
-C:\GitHub\ProjetRobotPhase3\MessageProcessor\obj\Debug\MessageProcessor.csproj.CoreCompileInputs.cache
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\obj\Debug\MessageProcessorNS.dll
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\obj\Debug\MessageProcessorNS.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\MessageProcessorNS.dll
@@ -38,11 +37,9 @@ C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\WorldMap.dll
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\ZeroFormatter.Interfaces.dll
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\Newtonsoft.Json.dll
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\ICSharpCode.SharpZipLib.dll
-C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\HeatMap.dll
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\Constants.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\EventArgsLibrary.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\ICSharpCode.SharpZipLib.pdb
-C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\HeatMap.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\obj\Debug\MessageProcessor.csproj.CopyComplete

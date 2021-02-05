@@ -22,7 +22,6 @@ C:\GitHub\RoboCup2020\C#\EventArgsLibrary\bin\Debug\Constants.pdb
 C:\GitHub\RoboCup2020\C#\EventArgsLibrary\bin\Debug\ZeroFormatter.Interfaces.dll
 C:\GitHub\RoboCup2020\C#\EventArgsLibrary\bin\Debug\ZeroFormatter.dll
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\obj\Debug\EventArgsLibrary.csprojAssemblyReference.cache
-C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\obj\Debug\EventArgsLibrary.csproj.CoreCompileInputs.cache
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\obj\Debug\EventArgsLibrary.dll
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\obj\Debug\EventArgsLibrary.pdb
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\EventArgsLibrary.dll
@@ -36,9 +35,7 @@ C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\ZeroFormatter.Interfaces.
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\Constants.dll
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\Utilities.dll
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\WorldMap.dll
-C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\HeatMap.dll
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\Constants.pdb
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\WorldMap.pdb
-C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\HeatMap.pdb
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\obj\Debug\EventArgsLibrary.csproj.CopyComplete

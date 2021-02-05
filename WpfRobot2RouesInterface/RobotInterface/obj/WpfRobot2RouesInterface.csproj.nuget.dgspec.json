@@ -1,31 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\WpfRobot2RouesInterface.csproj": {}
+    "C:\\Github\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\WpfRobot2RouesInterface.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+    "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj",
+        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj",
         "projectName": "Constants",
-        "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj"
+        "projectPath": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj"
       },
       "frameworks": {
         "net48": {}
       }
     },
-    "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
+    "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj",
+        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj",
         "projectName": "EventArgsLibrary",
-        "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj",
-        "packagesPath": "C:\\Users\\vgies\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\obj\\",
+        "projectPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj",
+        "packagesPath": "C:\\Users\\GEII Robot\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\vgies\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GEII Robot\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,14 +39,14 @@
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj"
               },
-              "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
               },
-              "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj"
               }
             }
           }
@@ -73,18 +74,18 @@
         }
       }
     },
-    "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
+    "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj",
-        "packagesPath": "C:\\Users\\vgies\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\obj\\",
+        "projectPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj",
+        "packagesPath": "C:\\Users\\GEII Robot\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\vgies\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GEII Robot\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,62 +131,64 @@
         }
       }
     },
-    "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj",
-        "projectName": "WorldMap",
-        "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj",
-        "frameworks": {
-          "net48": {
-            "projectReferences": {
-              "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj"
-              },
-              "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
-      }
-    },
-    "C:\\GitHub\\ProjetRobotPhase3\\WpfAsservissementDisplay\\WpfAsservissementDisplay.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\WpfAsservissementDisplay\\WpfAsservissementDisplay.csproj",
-        "projectName": "WpfAsservissementDisplay",
-        "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfAsservissementDisplay\\WpfAsservissementDisplay.csproj",
-        "frameworks": {
-          "net48": {
-            "projectReferences": {
-              "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj"
-              },
-              "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
-      }
-    },
-    "C:\\GitHub\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj": {
+    "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj",
+        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj",
+        "projectName": "WorldMap",
+        "projectPath": "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj"
+              },
+              "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Github\\ProjetRobotPhase3\\WpfAsservissementDisplay\\WpfAsservissementDisplay.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\WpfAsservissementDisplay\\WpfAsservissementDisplay.csproj",
+        "projectName": "WpfAsservissementDisplay",
+        "projectPath": "C:\\Github\\ProjetRobotPhase3\\WpfAsservissementDisplay\\WpfAsservissementDisplay.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj"
+              },
+              "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Github\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj",
         "projectName": "WpfOscilloscopeControl",
-        "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj",
-        "packagesPath": "C:\\Users\\vgies\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfOscilloscope\\obj\\",
+        "projectPath": "C:\\Github\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj",
+        "packagesPath": "C:\\Users\\GEII Robot\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\ProjetRobotPhase3\\WpfOscilloscope\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\vgies\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GEII Robot\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -223,18 +226,18 @@
         }
       }
     },
-    "C:\\GitHub\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\WpfRobot2RouesInterface.csproj": {
+    "C:\\Github\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\WpfRobot2RouesInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\WpfRobot2RouesInterface.csproj",
+        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\WpfRobot2RouesInterface.csproj",
         "projectName": "WpfRobot2RouesInterface",
-        "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\WpfRobot2RouesInterface.csproj",
-        "packagesPath": "C:\\Users\\vgies\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\obj\\",
+        "projectPath": "C:\\Github\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\WpfRobot2RouesInterface.csproj",
+        "packagesPath": "C:\\Users\\GEII Robot\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\vgies\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GEII Robot\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -247,26 +250,26 @@
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj"
               },
-              "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj"
               },
-              "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
               },
-              "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj"
               },
-              "C:\\GitHub\\ProjetRobotPhase3\\WpfAsservissementDisplay\\WpfAsservissementDisplay.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfAsservissementDisplay\\WpfAsservissementDisplay.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\WpfAsservissementDisplay\\WpfAsservissementDisplay.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\WpfAsservissementDisplay\\WpfAsservissementDisplay.csproj"
               },
-              "C:\\GitHub\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj"
               },
-              "C:\\GitHub\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj"
               }
             }
           }
@@ -294,18 +297,18 @@
         }
       }
     },
-    "C:\\GitHub\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj": {
+    "C:\\Github\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj",
+        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj",
         "projectName": "WpfWorldMapDisplay",
-        "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj",
-        "packagesPath": "C:\\Users\\vgies\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfWorldMapDisplay\\obj\\",
+        "projectPath": "C:\\Github\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj",
+        "packagesPath": "C:\\Users\\GEII Robot\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\ProjetRobotPhase3\\WpfWorldMapDisplay\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\vgies\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GEII Robot\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -318,17 +321,17 @@
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj"
               },
-              "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj"
               },
-              "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
               },
-              "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj"
               }
             }
           }

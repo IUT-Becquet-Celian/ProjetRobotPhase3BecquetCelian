@@ -32,15 +32,12 @@ C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\WorldMap.dll
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\ZeroFormatter.Interfaces.dll
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\Newtonsoft.Json.dll
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\ICSharpCode.SharpZipLib.dll
-C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\HeatMap.dll
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\EventArgsLibrary.pdb
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\Constants.pdb
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\ICSharpCode.SharpZipLib.pdb
-C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\HeatMap.pdb
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.csprojAssemblyReference.cache
-C:\GitHub\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.csproj.CoreCompileInputs.cache
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.csproj.CopyComplete
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.dll
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.pdb

@@ -36,16 +36,16 @@
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="SciChart.Charting, Version=6.3.0.13476, Culture=neutral, PublicKeyToken=b55dd9efe817e823, processorArchitecture=MSIL">
-      <HintPath>..\Robot\packages\SciChart.6.3.0.13476\lib\net452\SciChart.Charting.dll</HintPath>
+      <HintPath>packages\SciChart.6.3.0.13476\lib\net452\SciChart.Charting.dll</HintPath>
     </Reference>
     <Reference Include="SciChart.Core, Version=6.3.0.13476, Culture=neutral, PublicKeyToken=b55dd9efe817e823, processorArchitecture=MSIL">
-      <HintPath>..\Robot\packages\SciChart.6.3.0.13476\lib\net452\SciChart.Core.dll</HintPath>
+      <HintPath>packages\SciChart.6.3.0.13476\lib\net452\SciChart.Core.dll</HintPath>
     </Reference>
     <Reference Include="SciChart.Data, Version=6.3.0.13476, Culture=neutral, PublicKeyToken=b55dd9efe817e823, processorArchitecture=MSIL">
-      <HintPath>..\Robot\packages\SciChart.6.3.0.13476\lib\net452\SciChart.Data.dll</HintPath>
+      <HintPath>packages\SciChart.6.3.0.13476\lib\net452\SciChart.Data.dll</HintPath>
     </Reference>
     <Reference Include="SciChart.Drawing, Version=6.3.0.13476, Culture=neutral, PublicKeyToken=b55dd9efe817e823, processorArchitecture=MSIL">
-      <HintPath>..\Robot\packages\SciChart.6.3.0.13476\lib\net452\SciChart.Drawing.dll</HintPath>
+      <HintPath>packages\SciChart.6.3.0.13476\lib\net452\SciChart.Drawing.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

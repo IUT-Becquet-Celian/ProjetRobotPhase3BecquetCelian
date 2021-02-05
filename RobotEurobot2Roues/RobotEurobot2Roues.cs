@@ -4,7 +4,6 @@ using MessageEncoder;
 using MessageGeneratorNS;
 using MessageProcessorNS;
 using RobotInterface;
-using SciChart.Charting.Visuals;
 using System;
 using System.Runtime.InteropServices;
 using System.Threading;
@@ -12,6 +11,7 @@ using USBVendorNS;
 using XBoxControllerNS;
 using Constants;
 using StrategyManagerProjetEtudiantNS;
+using SciChart.Charting.Visuals;
 
 namespace RobotEurobot2Roues
 {

@@ -31,7 +31,6 @@ C:\GitHub\RoboCup2020\C#\StrategyManagerProjetEtudiant\bin\Debug\StrategyManager
 C:\GitHub\RoboCup2020\C#\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.dll
 C:\GitHub\RoboCup2020\C#\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.csprojAssemblyReference.cache
-C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.csproj.CoreCompileInputs.cache
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.dll
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\StrategyManagerProjetEtudiant.dll.config
@@ -45,11 +44,9 @@ C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\Emgu.CV.Plat
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\ZeroFormatter.Interfaces.dll
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\Newtonsoft.Json.dll
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\ICSharpCode.SharpZipLib.dll
-C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\HeatMap.dll
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\Constants.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\EventArgsLibrary.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\ICSharpCode.SharpZipLib.pdb
-C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\HeatMap.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.csproj.CopyComplete

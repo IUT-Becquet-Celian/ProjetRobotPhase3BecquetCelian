@@ -1,31 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\ProjetRobotPhase3\\XboxController\\XboxController.csproj": {}
+    "C:\\Github\\ProjetRobotPhase3\\XboxController\\XboxController.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+    "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj",
+        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj",
         "projectName": "Constants",
-        "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj"
+        "projectPath": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj"
       },
       "frameworks": {
         "net48": {}
       }
     },
-    "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
+    "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj",
+        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj",
         "projectName": "EventArgsLibrary",
-        "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj",
-        "packagesPath": "C:\\Users\\vgies\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\obj\\",
+        "projectPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj",
+        "packagesPath": "C:\\Users\\GEII Robot\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\vgies\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GEII Robot\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,14 +39,14 @@
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj"
               },
-              "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
               },
-              "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj"
               }
             }
           }
@@ -73,18 +74,18 @@
         }
       }
     },
-    "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
+    "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj",
-        "packagesPath": "C:\\Users\\vgies\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\obj\\",
+        "projectPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj",
+        "packagesPath": "C:\\Users\\GEII Robot\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\vgies\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GEII Robot\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,19 +131,20 @@
         }
       }
     },
-    "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
+    "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj",
+        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj",
         "projectName": "WorldMap",
-        "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj",
+        "projectPath": "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj"
               },
-              "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -152,18 +154,18 @@
         "net48": {}
       }
     },
-    "C:\\GitHub\\ProjetRobotPhase3\\XboxController\\XboxController.csproj": {
+    "C:\\Github\\ProjetRobotPhase3\\XboxController\\XboxController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\XboxController\\XboxController.csproj",
+        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\XboxController\\XboxController.csproj",
         "projectName": "XboxController",
-        "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\XboxController\\XboxController.csproj",
-        "packagesPath": "C:\\Users\\vgies\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\ProjetRobotPhase3\\XboxController\\obj\\",
+        "projectPath": "C:\\Github\\ProjetRobotPhase3\\XboxController\\XboxController.csproj",
+        "packagesPath": "C:\\Users\\GEII Robot\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\ProjetRobotPhase3\\XboxController\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\vgies\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GEII Robot\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -176,8 +178,8 @@
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
-                "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj"
+              "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj"
               }
             }
           }

@@ -63,16 +63,13 @@ C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\bin\Debug\Constants.dll
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\bin\Debug\EventArgsLibrary.dll
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\bin\Debug\Utilities.dll
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\bin\Debug\WorldMap.dll
-C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\bin\Debug\HeatMap.dll
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\bin\Debug\Constants.pdb
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\bin\Debug\EventArgsLibrary.pdb
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\bin\Debug\WorldMap.pdb
-C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\bin\Debug\HeatMap.pdb
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\GlobalWorldMapDisplay.baml
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\LocalWorldMapDisplay.baml
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.g.resources
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.Properties.Resources.resources
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.csproj.GenerateResource.cache
-C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.csproj.CoreCompileInputs.cache
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.csproj.CopyComplete

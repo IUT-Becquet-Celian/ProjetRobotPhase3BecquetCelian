@@ -30,7 +30,6 @@ C:\GitHub\ProjetRobotPhase3\WpfOscilloscope\obj\Debug\WpfOscilloscope.baml
 C:\GitHub\ProjetRobotPhase3\WpfOscilloscope\obj\Debug\WpfOscilloscopeControl.g.resources
 C:\GitHub\ProjetRobotPhase3\WpfOscilloscope\obj\Debug\WpfOscilloscopeControl.Properties.Resources.resources
 C:\GitHub\ProjetRobotPhase3\WpfOscilloscope\obj\Debug\WpfOscilloscopeControl.csproj.GenerateResource.cache
-C:\GitHub\ProjetRobotPhase3\WpfOscilloscope\obj\Debug\WpfOscilloscopeControl.csproj.CoreCompileInputs.cache
 C:\GitHub\ProjetRobotPhase3\WpfOscilloscope\obj\Debug\WpfOscilloscopeControl.csproj.CopyComplete
 C:\GitHub\ProjetRobotPhase3\WpfOscilloscope\obj\Debug\WpfOscilloscopeControl.dll
 C:\GitHub\ProjetRobotPhase3\WpfOscilloscope\obj\Debug\WpfOscilloscopeControl.pdb

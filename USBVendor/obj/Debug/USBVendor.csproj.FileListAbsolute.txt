@@ -25,7 +25,6 @@ C:\GitHub\RoboCup2020\C#\USBVendor\bin\Debug\Constants.pdb
 C:\GitHub\RoboCup2020\C#\USBVendor\bin\Debug\PerformanceMonitorTools.dll
 C:\GitHub\RoboCup2020\C#\USBVendor\bin\Debug\PerformanceMonitorTools.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\obj\Debug\USBVendor.csprojAssemblyReference.cache
-C:\GitHub\ProjetRobotPhase3\USBVendor\obj\Debug\USBVendor.csproj.CoreCompileInputs.cache
 C:\GitHub\ProjetRobotPhase3\USBVendor\obj\Debug\USBVendor.dll
 C:\GitHub\ProjetRobotPhase3\USBVendor\obj\Debug\USBVendor.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\USBVendor.dll
@@ -38,11 +37,9 @@ C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\WorldMap.dll
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\ZeroFormatter.Interfaces.dll
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\Newtonsoft.Json.dll
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\ICSharpCode.SharpZipLib.dll
-C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\HeatMap.dll
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\EventArgsLibrary.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\Constants.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\ICSharpCode.SharpZipLib.pdb
-C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\HeatMap.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\obj\Debug\USBVendor.csproj.CopyComplete

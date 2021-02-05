@@ -32,15 +32,12 @@ C:\GitHub\ProjetRobotPhase3\MessageDecoder\bin\Debug\WorldMap.dll
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\bin\Debug\ZeroFormatter.Interfaces.dll
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\bin\Debug\Newtonsoft.Json.dll
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\bin\Debug\ICSharpCode.SharpZipLib.dll
-C:\GitHub\ProjetRobotPhase3\MessageDecoder\bin\Debug\HeatMap.dll
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\bin\Debug\EventArgsLibrary.pdb
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\bin\Debug\Constants.pdb
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\bin\Debug\ICSharpCode.SharpZipLib.pdb
-C:\GitHub\ProjetRobotPhase3\MessageDecoder\bin\Debug\HeatMap.pdb
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\obj\Debug\MessageDecoder.csprojAssemblyReference.cache
-C:\GitHub\ProjetRobotPhase3\MessageDecoder\obj\Debug\MessageDecoder.csproj.CoreCompileInputs.cache
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\obj\Debug\MessageDecoder.csproj.CopyComplete
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\obj\Debug\MessageDecoder.dll
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\obj\Debug\MessageDecoder.pdb
