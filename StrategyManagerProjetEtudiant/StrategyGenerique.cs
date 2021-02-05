@@ -101,13 +101,10 @@ namespace StrategyManagerProjetEtudiantNS
 
         private void TimerStrategy_Elapsed(object sender, ElapsedEventArgs e)
         {
-            IterateStateMachines();
             //Mise à jour de l'affichage de la world map
             OnUpdateWorldMapDisplay(robotId);
 
         }
-
-        public abstract void IterateStateMachines(); //A définir dans les classes héritées
 
 
         /****************************************** Events envoyés ***********************************************/
@@ -233,7 +230,7 @@ namespace StrategyManagerProjetEtudiantNS
         }
 
         public event EventHandler<TwoWheelsToPolarMatrixArgs> On2WheelsToPolarMatrixSetupEvent;
-        public void On2WheelsToPolarSetup(double mX1, double mX2, double mTheta1, double mTheta2)
+        public void On2WheelsToPolarMatrixSetup(double mX1, double mX2, double mTheta1, double mTheta2)
         {
             On2WheelsToPolarMatrixSetupEvent?.Invoke(this, new TwoWheelsToPolarMatrixArgs
             {

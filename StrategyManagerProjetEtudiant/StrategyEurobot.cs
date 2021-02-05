@@ -35,15 +35,10 @@ namespace StrategyManagerProjetEtudiantNS
             //Obtenus directement à partir du script Matlab
             OnOdometryPointToMeter(1.178449e-06);
             On2WheelsAngleSetup(-1.570796e+00, 1.570796e+00);
-            On2WheelsToPolarSetup(5.000000e-01, -5.000000e-01,
+            On2WheelsToPolarMatrixSetup(5.000000e-01, -5.000000e-01,
                                 4.166667e+00, 4.166667e+00);
         }
-        
-        public override void IterateStateMachines()
-        {
-            
-        }
-        
+                
 
         /*********************************** Events reçus **********************************************/
         
