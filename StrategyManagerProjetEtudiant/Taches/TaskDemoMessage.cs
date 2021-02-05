@@ -91,7 +91,7 @@ namespace StrategyManagerProjetEtudiantNS
                         Console.WriteLine("TaskDemoMessage : Etat 2");
                         break;
                     case TaskDemoMessageState.Etat2EnCours:
-                        if (sw.ElapsedMilliseconds>1000)
+                        if (sw.ElapsedMilliseconds>2000)
                         {
                             state = TaskDemoMessageState.Etat3;
                         }                            
