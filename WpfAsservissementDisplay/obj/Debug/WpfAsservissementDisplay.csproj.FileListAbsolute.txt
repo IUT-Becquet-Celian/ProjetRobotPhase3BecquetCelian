@@ -45,3 +45,12 @@ C:\Github\ProjetRobotPhase3\WpfAsservissementDisplay\obj\Debug\WpfAsservissement
 C:\Github\ProjetRobotPhase3\WpfAsservissementDisplay\obj\Debug\WpfAsservissementDisplay.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3\WpfAsservissementDisplay\obj\Debug\WpfAsservissementDisplay.dll
 C:\Github\ProjetRobotPhase3\WpfAsservissementDisplay\obj\Debug\WpfAsservissementDisplay.pdb
+C:\GitHub\ProjetRobotPhase3\WpfAsservissementDisplay\obj\Debug\WpfAsservissementDisplay.csproj.CoreCompileInputs.cache
+C:\GitHub\ProjetRobotPhase3\WpfAsservissementDisplay\bin\Debug\SciChart.Charting.dll
+C:\GitHub\ProjetRobotPhase3\WpfAsservissementDisplay\bin\Debug\SciChart.Core.dll
+C:\GitHub\ProjetRobotPhase3\WpfAsservissementDisplay\bin\Debug\SciChart.Data.dll
+C:\GitHub\ProjetRobotPhase3\WpfAsservissementDisplay\bin\Debug\SciChart.Drawing.dll
+C:\GitHub\ProjetRobotPhase3\WpfAsservissementDisplay\bin\Debug\SciChart.Charting.xml
+C:\GitHub\ProjetRobotPhase3\WpfAsservissementDisplay\bin\Debug\SciChart.Core.xml
+C:\GitHub\ProjetRobotPhase3\WpfAsservissementDisplay\bin\Debug\SciChart.Data.xml
+C:\GitHub\ProjetRobotPhase3\WpfAsservissementDisplay\bin\Debug\SciChart.Drawing.xml

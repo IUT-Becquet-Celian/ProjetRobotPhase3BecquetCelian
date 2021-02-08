@@ -34,7 +34,6 @@ C:\GitHub\RoboCup2020\C#\XboxController\bin\Debug\ZeroFormatter.Interfaces.dll
 C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\XboxController.dll.config
 C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\XboxController.dll
 C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\XboxController.pdb
-C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\Emgu.CV.Platform.NetStandard.dll
 C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\SharpDX.dll
 C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\SharpDX.pdb
 C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\SharpDX.XInput.dll
@@ -57,3 +56,8 @@ C:\GitHub\ProjetRobotPhase3\XboxController\obj\Debug\XboxController.csproj.CopyC
 C:\GitHub\ProjetRobotPhase3\XboxController\obj\Debug\XboxController.dll
 C:\GitHub\ProjetRobotPhase3\XboxController\obj\Debug\XboxController.pdb
 C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\ZeroFormatter.dll
+C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\SciChart.Charting.dll
+C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\SciChart.Core.dll
+C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\SciChart.Data.dll
+C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\SciChart.Drawing.dll
+C:\GitHub\ProjetRobotPhase3\XboxController\obj\Debug\XboxController.csproj.CoreCompileInputs.cache

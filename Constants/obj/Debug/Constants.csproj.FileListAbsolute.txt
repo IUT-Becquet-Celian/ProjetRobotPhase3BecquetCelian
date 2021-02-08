@@ -9,3 +9,13 @@ C:\Github\ProjetRobotPhase3\Constants\bin\Debug\Constants.pdb
 C:\Github\ProjetRobotPhase3\Constants\obj\Debug\Constants.csprojAssemblyReference.cache
 C:\Github\ProjetRobotPhase3\Constants\obj\Debug\Constants.dll
 C:\Github\ProjetRobotPhase3\Constants\obj\Debug\Constants.pdb
+C:\GitHub\ProjetRobotPhase3\Constants\bin\Debug\SciChart.Charting.dll
+C:\GitHub\ProjetRobotPhase3\Constants\bin\Debug\SciChart.Core.dll
+C:\GitHub\ProjetRobotPhase3\Constants\bin\Debug\SciChart.Data.dll
+C:\GitHub\ProjetRobotPhase3\Constants\bin\Debug\SciChart.Drawing.dll
+C:\GitHub\ProjetRobotPhase3\Constants\bin\Debug\SciChart.Charting.xml
+C:\GitHub\ProjetRobotPhase3\Constants\bin\Debug\SciChart.Core.xml
+C:\GitHub\ProjetRobotPhase3\Constants\bin\Debug\SciChart.Data.xml
+C:\GitHub\ProjetRobotPhase3\Constants\bin\Debug\SciChart.Drawing.xml
+C:\GitHub\ProjetRobotPhase3\Constants\obj\Debug\Constants.csproj.CoreCompileInputs.cache
+C:\GitHub\ProjetRobotPhase3\Constants\obj\Debug\Constants.csproj.CopyComplete

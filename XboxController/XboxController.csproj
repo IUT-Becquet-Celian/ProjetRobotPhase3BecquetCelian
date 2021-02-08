@@ -76,6 +76,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="SciChart">
+      <Version>6.3.0.13476</Version>
+    </PackageReference>
     <PackageReference Include="SharpDX">
       <Version>4.2.0</Version>
     </PackageReference>

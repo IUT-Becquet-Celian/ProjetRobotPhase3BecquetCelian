@@ -32,7 +32,6 @@ C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\MessageProcessorNS.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\Constants.dll
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\EventArgsLibrary.dll
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\Utilities.dll
-C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\Emgu.CV.Platform.NetStandard.dll
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\WorldMap.dll
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\ZeroFormatter.Interfaces.dll
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\Newtonsoft.Json.dll
@@ -43,3 +42,12 @@ C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\ICSharpCode.SharpZipLib.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\obj\Debug\MessageProcessor.csproj.CopyComplete
+C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\SciChart.Charting.dll
+C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\SciChart.Core.dll
+C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\SciChart.Data.dll
+C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\SciChart.Drawing.dll
+C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\SciChart.Charting.xml
+C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\SciChart.Core.xml
+C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\SciChart.Data.xml
+C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\SciChart.Drawing.xml
+C:\GitHub\ProjetRobotPhase3\MessageProcessor\obj\Debug\MessageProcessor.csproj.CoreCompileInputs.cache

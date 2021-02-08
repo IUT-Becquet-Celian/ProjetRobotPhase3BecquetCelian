@@ -21,3 +21,8 @@ C:\Github\ProjetRobotPhase3\Utilities\obj\Debug\Utilities.csprojAssemblyReferenc
 C:\Github\ProjetRobotPhase3\Utilities\obj\Debug\Utilities.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3\Utilities\obj\Debug\Utilities.dll
 C:\Github\ProjetRobotPhase3\Utilities\obj\Debug\Utilities.pdb
+C:\GitHub\ProjetRobotPhase3\Utilities\bin\Debug\SciChart.Charting.dll
+C:\GitHub\ProjetRobotPhase3\Utilities\bin\Debug\SciChart.Core.dll
+C:\GitHub\ProjetRobotPhase3\Utilities\bin\Debug\SciChart.Data.dll
+C:\GitHub\ProjetRobotPhase3\Utilities\bin\Debug\SciChart.Drawing.dll
+C:\GitHub\ProjetRobotPhase3\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache

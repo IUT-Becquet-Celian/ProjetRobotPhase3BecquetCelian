@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj": {}
+    "C:\\GitHub\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj": {}
   },
   "projects": {
-    "C:\\Github\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj": {
+    "C:\\GitHub\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj",
+        "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj",
         "projectName": "WpfOscilloscopeControl",
-        "projectPath": "C:\\Github\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj",
-        "packagesPath": "C:\\Users\\GEII Robot\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\ProjetRobotPhase3\\WpfOscilloscope\\obj\\",
+        "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj",
+        "packagesPath": "C:\\Users\\vgies\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfOscilloscope\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\GEII Robot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vgies\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -36,7 +36,7 @@
           "dependencies": {
             "SciChart": {
               "target": "Package",
-              "version": "[6.2.1.13304, )"
+              "version": "[6.3.0.13476, )"
             }
           }
         }

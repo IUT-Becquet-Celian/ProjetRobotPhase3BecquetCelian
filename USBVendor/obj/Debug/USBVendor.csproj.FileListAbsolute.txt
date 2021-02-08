@@ -31,7 +31,6 @@ C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\USBVendor.dll
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\USBVendor.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\EventArgsLibrary.dll
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\Constants.dll
-C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\Emgu.CV.Platform.NetStandard.dll
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\Utilities.dll
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\WorldMap.dll
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\ZeroFormatter.Interfaces.dll
@@ -43,3 +42,12 @@ C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\ICSharpCode.SharpZipLib.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\obj\Debug\USBVendor.csproj.CopyComplete
+C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Charting.dll
+C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Core.dll
+C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Data.dll
+C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Drawing.dll
+C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Charting.xml
+C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Core.xml
+C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Data.xml
+C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Drawing.xml
+C:\GitHub\ProjetRobotPhase3\USBVendor\obj\Debug\USBVendor.csproj.CoreCompileInputs.cache

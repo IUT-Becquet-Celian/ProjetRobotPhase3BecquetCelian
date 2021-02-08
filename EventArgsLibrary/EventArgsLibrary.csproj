@@ -85,8 +85,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Emgu.CV">
-      <Version>4.4.0.4099</Version>
+    <PackageReference Include="SciChart">
+      <Version>6.3.0.13476</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

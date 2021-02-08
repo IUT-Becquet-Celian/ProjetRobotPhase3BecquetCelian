@@ -52,7 +52,6 @@ C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\Rob
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\RobotInterface.exe.config
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\RobotInterface.exe
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\RobotInterface.pdb
-C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\Emgu.CV.Platform.NetStandard.dll
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\Newtonsoft.Json.dll
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\SciChart.Charting.dll
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\bin\Debug\SciChart.Core.dll
@@ -83,3 +82,4 @@ C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\Rob
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\RobotInterface.Properties.Resources.resources
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\WpfRobot2RouesInterface.csproj.GenerateResource.cache
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\WpfRobot2RouesInterface.csproj.CopyComplete
+C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\WpfRobot2RouesInterface.csproj.CoreCompileInputs.cache

@@ -1,5 +1,5 @@
 ﻿using Constants;
-using Emgu.CV;
+//using Emgu.CV;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -56,15 +56,15 @@ namespace EventArgsLibrary
         public Bitmap ImageBmp { get; set; }
     }
 
-    public class OpenCvMatImageArgs : EventArgs
-    {
-        public Mat Mat { get; set; }
-        public string Descriptor { get; set; }
-        public void Dispose()
-        {
-            Mat.Dispose();
-        }
-    }
+    //public class OpenCvMatImageArgs : EventArgs
+    //{
+    //    public Mat Mat { get; set; }
+    //    public string Descriptor { get; set; }
+    //    public void Dispose()
+    //    {
+    //        Mat.Dispose();
+    //    }
+    //}
 
     public class MessageDecodedArgs : EventArgs
     {

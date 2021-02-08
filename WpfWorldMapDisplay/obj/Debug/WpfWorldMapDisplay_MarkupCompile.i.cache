@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Github\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\
+C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\
 WpfWorldMapDisplay
 none
 false
@@ -12,8 +12,8 @@ DEBUG;TRACE
 
 2391922558
 
-101789317539
-133332854395
+10-603221382
+27-866401486
 GlobalWorldMapDisplay.xaml;LocalWorldMapDisplay.xaml;
 
 False

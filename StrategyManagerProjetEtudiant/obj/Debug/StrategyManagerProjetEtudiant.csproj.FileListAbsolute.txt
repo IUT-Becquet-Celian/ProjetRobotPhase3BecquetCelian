@@ -40,7 +40,6 @@ C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\Constants.dl
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\EventArgsLibrary.dll
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\Utilities.dll
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\WorldMap.dll
-C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\Emgu.CV.Platform.NetStandard.dll
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\ZeroFormatter.Interfaces.dll
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\Newtonsoft.Json.dll
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\ICSharpCode.SharpZipLib.dll
@@ -50,3 +49,12 @@ C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\Utilities.pd
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\ICSharpCode.SharpZipLib.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.csproj.CopyComplete
+C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.csproj.CoreCompileInputs.cache
+C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Charting.dll
+C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Core.dll
+C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Data.dll
+C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Drawing.dll
+C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Charting.xml
+C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Core.xml
+C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Data.xml
+C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Drawing.xml
