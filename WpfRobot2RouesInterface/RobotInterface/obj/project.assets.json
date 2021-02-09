@@ -801,52 +801,50 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vgies\\.nuget\\packages\\": {}
+    "C:\\Users\\Valentin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\WpfRobot2RouesInterface.csproj",
+      "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\WpfRobot2RouesInterface.csproj",
       "projectName": "WpfRobot2RouesInterface",
-      "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\WpfRobot2RouesInterface.csproj",
-      "packagesPath": "C:\\Users\\vgies\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\obj\\",
+      "projectPath": "C:\\Github\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\WpfRobot2RouesInterface.csproj",
+      "packagesPath": "C:\\Users\\Valentin\\.nuget\\packages\\",
+      "outputPath": "C:\\Github\\ProjetRobotPhase3\\WpfRobot2RouesInterface\\RobotInterface\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\vgies\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Valentin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net48"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
-              "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Constants\\Constants.csproj"
+            "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj"
             },
-            "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
-              "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj"
+            "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj"
             },
-            "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
-              "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
+            "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
             },
-            "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
-              "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj"
+            "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj"
             },
-            "C:\\GitHub\\ProjetRobotPhase3\\WpfAsservissementDisplay\\WpfAsservissementDisplay.csproj": {
-              "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfAsservissementDisplay\\WpfAsservissementDisplay.csproj"
+            "C:\\Github\\ProjetRobotPhase3\\WpfAsservissementDisplay\\WpfAsservissementDisplay.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3\\WpfAsservissementDisplay\\WpfAsservissementDisplay.csproj"
             },
-            "C:\\GitHub\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj": {
-              "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj"
+            "C:\\Github\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3\\WpfOscilloscope\\WpfOscilloscopeControl.csproj"
             },
-            "C:\\GitHub\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj": {
-              "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj"
+            "C:\\Github\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj"
             }
           }
         }

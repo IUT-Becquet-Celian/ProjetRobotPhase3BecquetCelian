@@ -13,7 +13,7 @@ namespace WpfOscilloscopeControl
     /// </summary>
     public partial class WpfOscilloscope : UserControl
     {
-        Dictionary<int, XyDataSeries<double, double> > lineDictionary = new Dictionary<int, XyDataSeries<double, double>>();
+        Dictionary<int, XyDataSeries<double, double>> lineDictionary = new Dictionary<int, XyDataSeries<double, double>>();
 
         public WpfOscilloscope()
         {
@@ -30,19 +30,19 @@ namespace WpfOscilloscopeControl
             else
             {
                 lineDictionary.Add(lineId, new XyDataSeries<double, double>(maxNumberOfPoints) { SeriesName = lineName });
-           
+
                 var lineRenderableSerie = new FastLineRenderableSeries();
-                lineRenderableSerie.Name = "lineRenderableSerie"+lineId.ToString();
+                lineRenderableSerie.Name = "lineRenderableSerie" + lineId.ToString();
                 lineRenderableSerie.DataSeries = lineDictionary[lineId];
                 lineRenderableSerie.DataSeries.AcceptsUnsortedData = true;
-                if(useYAxisRight)
+                if (useYAxisRight)
                     lineRenderableSerie.YAxisId = "RightYAxis";
                 else
                     lineRenderableSerie.YAxisId = "LeftYAxis";
 
                 //Ajout de la ligne dans le scichart
                 sciChart.RenderableSeries.Add(lineRenderableSerie);
-            }             
+            }
         }
 
         public void RemoveLine(int lineId)
@@ -56,7 +56,7 @@ namespace WpfOscilloscopeControl
 
         public void ResetGraph()
         {
-            foreach(var serie in sciChart.RenderableSeries)
+            foreach (var serie in sciChart.RenderableSeries)
             {
                 serie.DataSeries.Clear();
             }
@@ -74,10 +74,10 @@ namespace WpfOscilloscopeControl
         }
 
 
-        public void SetTitle(string title)
-        {
-            titleText.Text = title;
-        }
+        //public void SetTitle(string title)
+        //{
+        //    sciChartBox.Header = title;
+        //}
         public void SetSerieName(int lineId, string name)
         {
             if (LineExist(lineId))

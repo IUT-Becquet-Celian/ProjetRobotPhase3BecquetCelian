@@ -88,23 +88,24 @@ namespace RobotInterface
             timerAffichage.Tick += TimerAffichage_Tick;
             timerAffichage.Start();
 
-            oscilloX.SetTitle("Vx");
+            //oscilloX.SetTitle("Consigne / Vitesse Linéaire");
             oscilloX.AddOrUpdateLine(0, 100, "Vitesse X Consigne");
-            oscilloX.AddOrUpdateLine(1, 100, "Vitesse X");
-            oscilloX.AddOrUpdateLine(2, 100, "Accel X");
+            oscilloX.AddOrUpdateLine(1, 500, "Vitesse X");
+            //oscilloX.AddOrUpdateLine(2, 100, "Accel X");
             oscilloX.ChangeLineColor("Vitesse X", Colors.Red);
             oscilloX.ChangeLineColor("Vitesse X Consigne", Colors.Blue);
 
-            oscilloTheta.SetTitle("Vtheta");
+            //oscilloTheta.SetTitle("Consigne / Vitesse Angulaire");
             oscilloTheta.AddOrUpdateLine(0, 100, "Vitesse Theta Consigne");
-            oscilloTheta.AddOrUpdateLine(1, 100, "Vitesse Theta");
-            oscilloTheta.AddOrUpdateLine(2, 100, "Gyr Z");
+            oscilloTheta.AddOrUpdateLine(1, 500, "Vitesse Theta");
+            //oscilloTheta.AddOrUpdateLine(2, 100, "Gyr Z");
             oscilloTheta.ChangeLineColor(1, Colors.Red);
             oscilloTheta.ChangeLineColor(0, Colors.Blue);
 
+            //oscilloLidar.SetTitle("Lidar");
             oscilloLidar.AddOrUpdateLine(0, 20000, "Lidar RSSI", false);
             oscilloLidar.AddOrUpdateLine(1, 20000, "Lidar Distance");
-            oscilloLidar.AddOrUpdateLine(2, 20000, "Balise Points");
+            //oscilloLidar.AddOrUpdateLine(2, 20000, "Balise Points");
             oscilloLidar.ChangeLineColor(0, Colors.SeaGreen);
             oscilloLidar.ChangeLineColor(1, Colors.IndianRed);
             oscilloLidar.ChangeLineColor(2, Colors.LightGoldenrodYellow);
@@ -802,8 +803,8 @@ namespace RobotInterface
             {
                 case AsservissementMode.Off2Wheels:
                     OnSetAsservissementModeFromInterface((byte)AsservissementMode.Polar2Wheels);
-                    OnEnableSpeedPIDEnableDebugErrorCorrectionConsigneFromInterface(false);
-                    OnEnableSpeedPIDEnableDebugInternalFromInterface(false);
+                    OnEnableSpeedPIDEnableDebugErrorCorrectionConsigneFromInterface(true);
+                    OnEnableSpeedPIDEnableDebugInternalFromInterface(true);
                     break;
                 case AsservissementMode.Polar2Wheels:
                     OnSetAsservissementModeFromInterface((byte)AsservissementMode.Independant2Wheels);
@@ -812,13 +813,13 @@ namespace RobotInterface
                     break;
                 case AsservissementMode.Independant2Wheels:
                     OnSetAsservissementModeFromInterface((byte)AsservissementMode.Off2Wheels);
-                    OnEnableSpeedPIDEnableDebugErrorCorrectionConsigneFromInterface(true);
-                    OnEnableSpeedPIDEnableDebugInternalFromInterface(true);
+                    OnEnableSpeedPIDEnableDebugErrorCorrectionConsigneFromInterface(false);
+                    OnEnableSpeedPIDEnableDebugInternalFromInterface(false);
                     break;
                 default:
                     OnSetAsservissementModeFromInterface((byte)AsservissementMode.Off2Wheels);
-                    OnEnableSpeedPIDEnableDebugErrorCorrectionConsigneFromInterface(true);
-                    OnEnableSpeedPIDEnableDebugInternalFromInterface(true);
+                    OnEnableSpeedPIDEnableDebugErrorCorrectionConsigneFromInterface(false);
+                    OnEnableSpeedPIDEnableDebugInternalFromInterface(false);
                     break;
             }
         }

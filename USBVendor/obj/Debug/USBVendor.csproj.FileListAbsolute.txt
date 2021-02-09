@@ -42,12 +42,3 @@ C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\ICSharpCode.SharpZipLib.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\obj\Debug\USBVendor.csproj.CopyComplete
-C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Charting.dll
-C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Core.dll
-C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Data.dll
-C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Drawing.dll
-C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Charting.xml
-C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Core.xml
-C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Data.xml
-C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\SciChart.Drawing.xml
-C:\GitHub\ProjetRobotPhase3\USBVendor\obj\Debug\USBVendor.csproj.CoreCompileInputs.cache

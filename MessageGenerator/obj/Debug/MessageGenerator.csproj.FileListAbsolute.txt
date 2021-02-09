@@ -44,12 +44,3 @@ C:\GitHub\ProjetRobotPhase3\MessageGenerator\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\MessageGenerator\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\MessageGenerator\bin\Debug\ICSharpCode.SharpZipLib.pdb
 C:\GitHub\ProjetRobotPhase3\MessageGenerator\obj\Debug\MessageGenerator.csproj.CopyComplete
-C:\GitHub\ProjetRobotPhase3\MessageGenerator\bin\Debug\SciChart.Charting.dll
-C:\GitHub\ProjetRobotPhase3\MessageGenerator\bin\Debug\SciChart.Core.dll
-C:\GitHub\ProjetRobotPhase3\MessageGenerator\bin\Debug\SciChart.Data.dll
-C:\GitHub\ProjetRobotPhase3\MessageGenerator\bin\Debug\SciChart.Drawing.dll
-C:\GitHub\ProjetRobotPhase3\MessageGenerator\bin\Debug\SciChart.Charting.xml
-C:\GitHub\ProjetRobotPhase3\MessageGenerator\bin\Debug\SciChart.Core.xml
-C:\GitHub\ProjetRobotPhase3\MessageGenerator\bin\Debug\SciChart.Data.xml
-C:\GitHub\ProjetRobotPhase3\MessageGenerator\bin\Debug\SciChart.Drawing.xml
-C:\GitHub\ProjetRobotPhase3\MessageGenerator\obj\Debug\MessageGenerator.csproj.CoreCompileInputs.cache

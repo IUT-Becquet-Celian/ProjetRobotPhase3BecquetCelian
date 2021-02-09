@@ -82,4 +82,3 @@ C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\Rob
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\RobotInterface.Properties.Resources.resources
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\WpfRobot2RouesInterface.csproj.GenerateResource.cache
 C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\WpfRobot2RouesInterface.csproj.CopyComplete
-C:\GitHub\ProjetRobotPhase3\WpfRobot2RouesInterface\RobotInterface\obj\Debug\WpfRobot2RouesInterface.csproj.CoreCompileInputs.cache

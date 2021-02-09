@@ -40,12 +40,3 @@ C:\GitHub\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.csprojAssemb
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.csproj.CopyComplete
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.dll
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.pdb
-C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\SciChart.Charting.dll
-C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\SciChart.Core.dll
-C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\SciChart.Data.dll
-C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\SciChart.Drawing.dll
-C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\SciChart.Charting.xml
-C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\SciChart.Core.xml
-C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\SciChart.Data.xml
-C:\GitHub\ProjetRobotPhase3\MessageEncoder\bin\Debug\SciChart.Drawing.xml
-C:\GitHub\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.csproj.CoreCompileInputs.cache

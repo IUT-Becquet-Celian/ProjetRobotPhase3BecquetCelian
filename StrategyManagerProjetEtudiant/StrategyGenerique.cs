@@ -54,7 +54,7 @@ namespace StrategyManagerProjetEtudiantNS
         public Location robotCurrentLocation = new Location(0, 0, 0, 0, 0, 0);
         public double robotOrientation;
 
-        
+
         System.Timers.Timer timerStrategy;
 
         public StrategyGenerique(int robotId, int teamId, string teamIpAddress)
@@ -101,10 +101,13 @@ namespace StrategyManagerProjetEtudiantNS
 
         private void TimerStrategy_Elapsed(object sender, ElapsedEventArgs e)
         {
+            IterateStateMachines();
             //Mise à jour de l'affichage de la world map
             OnUpdateWorldMapDisplay(robotId);
 
         }
+
+        public abstract void IterateStateMachines(); //A définir dans les classes héritées
 
 
         /****************************************** Events envoyés ***********************************************/
@@ -122,70 +125,6 @@ namespace StrategyManagerProjetEtudiantNS
             if (handler != null)
             {
                 handler(this, new EventArgs());
-            }
-        }
-        
-        public event EventHandler<ByteEventArgs> OnSetAsservissementModeEvent;
-        public virtual void OnSetAsservissementMode(byte val)
-        {
-            OnSetAsservissementModeEvent?.Invoke(this, new ByteEventArgs { Value = val });
-        }
-
-        public event EventHandler<SpeedConsigneToMotorArgs> OnSetSpeedConsigneToMotor;
-        public virtual void OnSetSpeedConsigneToMotorEvent(object sender, SpeedConsigneToMotorArgs e)
-        {
-            OnSetSpeedConsigneToMotor?.Invoke(sender, e);
-        }
-
-        public event EventHandler<BoolEventArgs> OnEnableDisableMotorCurrentDataEvent;
-        public virtual void OnEnableDisableMotorCurrentData(bool val)
-        {
-            OnEnableDisableMotorCurrentDataEvent?.Invoke(this, new BoolEventArgs { value = val });
-        }
-
-        public event EventHandler<CollisionEventArgs> OnCollisionEvent;
-        public virtual void OnCollision(int id, Location robotLocation)
-        {
-            OnCollisionEvent?.Invoke(this, new CollisionEventArgs { RobotId = id, RobotRealPositionRefTerrain = robotLocation });
-        }
-
-        public event EventHandler<IOValuesEventArgs> OnIOValuesFromRobotEvent;
-        public void OnIOValuesFromRobot(object sender, IOValuesEventArgs e)
-        {
-            OnIOValuesFromRobotEvent?.Invoke(sender, e);
-        }
-
-        public event EventHandler<DoubleEventArgs> OnOdometryPointToMeterSetupEvent;
-        public void OnOdometryPointToMeter(double value)
-        {
-            OnOdometryPointToMeterSetupEvent?.Invoke(this, new DoubleEventArgs { Value = value });
-        }
-
-        public event EventHandler<TwoWheelsAngleArgs> On2WheelsAngleSetupEvent;
-        public void On2WheelsAngleSetup(double angleM1, double angleM2)
-        {
-            On2WheelsAngleSetupEvent?.Invoke(this, new TwoWheelsAngleArgs { angleMotor1 = angleM1, angleMotor2 = angleM2});
-        }
-
-        public event EventHandler<TwoWheelsToPolarMatrixArgs> On2WheelsToPolarMatrixSetupEvent;
-        public void On2WheelsToPolarMatrixSetup(double mX1, double mX2, double mTheta1, double mTheta2)
-        {
-            On2WheelsToPolarMatrixSetupEvent?.Invoke(this, new TwoWheelsToPolarMatrixArgs
-            {
-                mx1 = mX1,
-                mx2 = mX2,
-                mtheta1 = mTheta1,
-                mtheta2 = mTheta2,
-            });
-        }
-
-        public event EventHandler<StringEventArgs> OnTextMessageEvent;
-        public virtual void OnTextMessage(string str)
-        {
-            var handler = OnTextMessageEvent;
-            if (handler != null)
-            {
-                handler(this, new StringEventArgs { value = str });
             }
         }
 
@@ -237,5 +176,69 @@ namespace StrategyManagerProjetEtudiantNS
                 D_M2_Limit = dM2Limit,
             });
         }
-    }    
+
+        public event EventHandler<ByteEventArgs> OnSetAsservissementModeEvent;
+        public virtual void OnSetAsservissementMode(byte val)
+        {
+            OnSetAsservissementModeEvent?.Invoke(this, new ByteEventArgs { Value = val });
+        }
+
+        public event EventHandler<SpeedConsigneToMotorArgs> OnSetSpeedConsigneToMotor;
+        public virtual void OnSetSpeedConsigneToMotorEvent(object sender, SpeedConsigneToMotorArgs e)
+        {
+            OnSetSpeedConsigneToMotor?.Invoke(sender, e);
+        }
+
+        public event EventHandler<BoolEventArgs> OnEnableDisableMotorCurrentDataEvent;
+        public virtual void OnEnableDisableMotorCurrentData(bool val)
+        {
+            OnEnableDisableMotorCurrentDataEvent?.Invoke(this, new BoolEventArgs { value = val });
+        }
+
+        public event EventHandler<CollisionEventArgs> OnCollisionEvent;
+        public virtual void OnCollision(int id, Location robotLocation)
+        {
+            OnCollisionEvent?.Invoke(this, new CollisionEventArgs { RobotId = id, RobotRealPositionRefTerrain = robotLocation });
+        }
+
+        public event EventHandler<IOValuesEventArgs> OnIOValuesFromRobotEvent;
+        public void OnIOValuesFromRobot(object sender, IOValuesEventArgs e)
+        {
+            OnIOValuesFromRobotEvent?.Invoke(sender, e);
+        }
+
+        public event EventHandler<DoubleEventArgs> OnOdometryPointToMeterSetupEvent;
+        public void OnOdometryPointToMeter(double value)
+        {
+            OnOdometryPointToMeterSetupEvent?.Invoke(this, new DoubleEventArgs { Value = value });
+        }
+
+        public event EventHandler<TwoWheelsAngleArgs> On2WheelsAngleSetupEvent;
+        public void On2WheelsAngleSetup(double angleM1, double angleM2)
+        {
+            On2WheelsAngleSetupEvent?.Invoke(this, new TwoWheelsAngleArgs { angleMotor1 = angleM1, angleMotor2 = angleM2 });
+        }
+
+        public event EventHandler<TwoWheelsToPolarMatrixArgs> On2WheelsToPolarMatrixSetupEvent;
+        public void On2WheelsToPolarSetup(double mX1, double mX2, double mTheta1, double mTheta2)
+        {
+            On2WheelsToPolarMatrixSetupEvent?.Invoke(this, new TwoWheelsToPolarMatrixArgs
+            {
+                mx1 = mX1,
+                mx2 = mX2,
+                mtheta1 = mTheta1,
+                mtheta2 = mTheta2,
+            });
+        }
+
+        public event EventHandler<StringEventArgs> OnTextMessageEvent;
+        public virtual void OnTextMessage(string str)
+        {
+            var handler = OnTextMessageEvent;
+            if (handler != null)
+            {
+                handler(this, new StringEventArgs { value = str });
+            }
+        }
+    }
 }

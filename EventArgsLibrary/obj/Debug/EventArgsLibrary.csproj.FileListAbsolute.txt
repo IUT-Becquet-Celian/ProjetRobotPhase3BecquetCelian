@@ -42,4 +42,3 @@ C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\SciChart.Charting.dll
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\SciChart.Core.dll
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\SciChart.Data.dll
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\SciChart.Drawing.dll
-C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\obj\Debug\EventArgsLibrary.csproj.CoreCompileInputs.cache

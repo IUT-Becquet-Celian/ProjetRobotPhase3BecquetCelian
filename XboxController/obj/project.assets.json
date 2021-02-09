@@ -791,34 +791,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vgies\\.nuget\\packages\\": {}
+    "C:\\Users\\Valentin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\ProjetRobotPhase3\\XboxController\\XboxController.csproj",
+      "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\XboxController\\XboxController.csproj",
       "projectName": "XboxController",
-      "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\XboxController\\XboxController.csproj",
-      "packagesPath": "C:\\Users\\vgies\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\ProjetRobotPhase3\\XboxController\\obj\\",
+      "projectPath": "C:\\Github\\ProjetRobotPhase3\\XboxController\\XboxController.csproj",
+      "packagesPath": "C:\\Users\\Valentin\\.nuget\\packages\\",
+      "outputPath": "C:\\Github\\ProjetRobotPhase3\\XboxController\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\vgies\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Valentin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net48"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
-              "projectPath": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj"
+            "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj"
             }
           }
         }

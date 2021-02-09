@@ -31,13 +31,5 @@ C:\Github\ProjetRobotPhase3\WorldMap\bin\Debug\ICSharpCode.SharpZipLib.pdb
 C:\Github\ProjetRobotPhase3\WorldMap\obj\Debug\WorldMap.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3\WorldMap\obj\Debug\WorldMap.dll
 C:\Github\ProjetRobotPhase3\WorldMap\obj\Debug\WorldMap.pdb
-C:\GitHub\ProjetRobotPhase3\WorldMap\bin\Debug\Newtonsoft.Json.xml
-C:\GitHub\ProjetRobotPhase3\WorldMap\obj\Debug\WorldMap.csproj.CoreCompileInputs.cache
-C:\GitHub\ProjetRobotPhase3\WorldMap\bin\Debug\SciChart.Charting.dll
-C:\GitHub\ProjetRobotPhase3\WorldMap\bin\Debug\SciChart.Core.dll
-C:\GitHub\ProjetRobotPhase3\WorldMap\bin\Debug\SciChart.Data.dll
-C:\GitHub\ProjetRobotPhase3\WorldMap\bin\Debug\SciChart.Drawing.dll
-C:\GitHub\ProjetRobotPhase3\WorldMap\bin\Debug\SciChart.Charting.xml
-C:\GitHub\ProjetRobotPhase3\WorldMap\bin\Debug\SciChart.Core.xml
-C:\GitHub\ProjetRobotPhase3\WorldMap\bin\Debug\SciChart.Data.xml
-C:\GitHub\ProjetRobotPhase3\WorldMap\bin\Debug\SciChart.Drawing.xml
+C:\Github\ProjetRobotPhase3\WorldMap\bin\Debug\Newtonsoft.Json.dll
+C:\Github\ProjetRobotPhase3\WorldMap\bin\Debug\ZeroFormatter.Interfaces.dll

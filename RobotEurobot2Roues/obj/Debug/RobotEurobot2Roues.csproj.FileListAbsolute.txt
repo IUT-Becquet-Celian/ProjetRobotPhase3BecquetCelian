@@ -110,12 +110,3 @@ C:\GitHub\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\SharpDX.XInput.pdb
 C:\GitHub\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\ICSharpCode.SharpZipLib.pdb
 C:\GitHub\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\SharpDX.pdb
 C:\GitHub\ProjetRobotPhase3\RobotEurobot2Roues\obj\Debug\RobotEurobot2Roues.csproj.CopyComplete
-C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\SciChart.Charting.dll
-C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\SciChart.Drawing.dll
-C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\SciChart.Data.dll
-C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\SciChart.Core.dll
-C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\SciChart.Charting.xml
-C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\SciChart.Core.xml
-C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\SciChart.Data.xml
-C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\SciChart.Drawing.xml
-C:\GitHub\ProjetRobotPhase3\RobotEurobot2Roues\obj\Debug\RobotEurobot2Roues.csproj.CoreCompileInputs.cache

@@ -49,12 +49,3 @@ C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\Utilities.pd
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\ICSharpCode.SharpZipLib.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.csproj.CopyComplete
-C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.csproj.CoreCompileInputs.cache
-C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Charting.dll
-C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Core.dll
-C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Data.dll
-C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Drawing.dll
-C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Charting.xml
-C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Core.xml
-C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Data.xml
-C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\SciChart.Drawing.xml
