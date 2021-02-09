@@ -30,7 +30,7 @@ namespace RobotInterface
         {
             gameMode = gamemode;
             InitializeComponent();
-            
+
             //Among other settings, this code may be used
             CultureInfo ci = CultureInfo.CurrentUICulture;
 
@@ -55,7 +55,7 @@ namespace RobotInterface
                 //Handler attach - will not be done if not needed
                 PreviewKeyDown += new KeyEventHandler(MainWindow_PreviewKeyDown);
             }
-            
+
             var currentDir = Directory.GetCurrentDirectory();
             var racineProjets = Directory.GetParent(currentDir);
             var imagePath = racineProjets.Parent.Parent.FullName.ToString() + "\\Images\\";
@@ -72,8 +72,8 @@ namespace RobotInterface
                 //worldMapDisplayWaypoint.Init(gameMode, LocalWorldMapDisplayType.WayPointMap, imagePath + "RoboCup.png");
             }
 
-            worldMapDisplayStrategy.InitTeamMate((int)TeamId.Team1 + (int)RobotId.Robot1, GameMode.Eurobot,  "Wally");
-            worldMapDisplayWaypoint.InitTeamMate((int)TeamId.Team1 + (int)RobotId.Robot1, GameMode.Eurobot,  "Wally");
+            worldMapDisplayStrategy.InitTeamMate((int)TeamId.Team1 + (int)RobotId.Robot1, GameMode.Eurobot, "Wally");
+            worldMapDisplayWaypoint.InitTeamMate((int)TeamId.Team1 + (int)RobotId.Robot1, GameMode.Eurobot, "Wally");
 
             worldMapDisplayStrategy.OnCtrlClickOnHeatMapEvent += WorldMapDisplay_OnCtrlClickOnHeatMapEvent;
             worldMapDisplayWaypoint.OnCtrlClickOnHeatMapEvent += WorldMapDisplay_OnCtrlClickOnHeatMapEvent;
@@ -83,7 +83,7 @@ namespace RobotInterface
             //{
             //    Console.WriteLine("   {0}", s);
             //}
-                                   
+
             timerAffichage.Interval = new TimeSpan(0, 0, 0, 0, 50);
             timerAffichage.Tick += TimerAffichage_Tick;
             timerAffichage.Start();
@@ -94,14 +94,14 @@ namespace RobotInterface
             oscilloX.AddOrUpdateLine(2, 100, "Accel X");
             oscilloX.ChangeLineColor("Vitesse X", Colors.Red);
             oscilloX.ChangeLineColor("Vitesse X Consigne", Colors.Blue);
-            
+
             oscilloTheta.SetTitle("Vtheta");
             oscilloTheta.AddOrUpdateLine(0, 100, "Vitesse Theta Consigne");
             oscilloTheta.AddOrUpdateLine(1, 100, "Vitesse Theta");
             oscilloTheta.AddOrUpdateLine(2, 100, "Gyr Z");
             oscilloTheta.ChangeLineColor(1, Colors.Red);
             oscilloTheta.ChangeLineColor(0, Colors.Blue);
-            
+
             oscilloLidar.AddOrUpdateLine(0, 20000, "Lidar RSSI", false);
             oscilloLidar.AddOrUpdateLine(1, 20000, "Lidar Distance");
             oscilloLidar.AddOrUpdateLine(2, 20000, "Balise Points");
@@ -110,7 +110,7 @@ namespace RobotInterface
             oscilloLidar.ChangeLineColor(2, Colors.LightGoldenrodYellow);
 
             asservPositionDisplay.SetTitle("Asservissement Position");
-            asservSpeedDisplay.SetTitle("Asservissement Vitesse");
+            asserv2WheelsSpeedDisplay.SetTitle("Asservissement Vitesse");
         }
 
         void MainWindow_PreviewKeyDown(object sender, KeyEventArgs e)
@@ -140,7 +140,7 @@ namespace RobotInterface
         {
             nbMsgReceived += 1;
         }
-        
+
         int nbMsgReceivedErrors = 0;
         public void DisplayMessageDecodedError(object sender, MessageDecodedArgs e)
         {
@@ -149,7 +149,7 @@ namespace RobotInterface
 
         double currentTime = 0;
         private void TimerAffichage_Tick(object sender, EventArgs e)
-        {           
+        {
         }
 
         public void OnLocalWorldMapStrategyEvent(object sender, EventArgsLibrary.LocalWorldMapArgs e)
@@ -190,14 +190,14 @@ namespace RobotInterface
 
         public void OnMessageToDisplayPolarSpeedPidSetupReceived(object sender, PolarPIDSetupArgs e)
         {
-            asservSpeedDisplay.UpdatePolarSpeedCorrectionGains(e.P_x, e.P_theta, e.I_x, e.I_theta, e.D_x, e.D_theta);
-            asservSpeedDisplay.UpdatePolarSpeedCorrectionLimits(e.P_x_Limit, e.P_theta_Limit, e.I_x_Limit, e.I_theta_Limit, e.D_x_Limit, e.D_theta_Limit);
+            asserv2WheelsSpeedDisplay.UpdatePolarSpeedCorrectionGains(e.P_x, e.P_theta, e.I_x, e.I_theta, e.D_x, e.D_theta);
+            asserv2WheelsSpeedDisplay.UpdatePolarSpeedCorrectionLimits(e.P_x_Limit, e.P_theta_Limit, e.I_x_Limit, e.I_theta_Limit, e.D_x_Limit, e.D_theta_Limit);
         }
 
         public void OnMessageToDisplayIndependantSpeedPidSetupReceived(object sender, IndependantPIDSetupArgs e)
         {
-            asservSpeedDisplay.UpdateIndependantSpeedCorrectionGains(e.P_M1, e.P_M2, e.I_M1, e.I_M2, e.D_M1, e.D_M2);
-            asservSpeedDisplay.UpdateIndependantSpeedCorrectionLimits(e.P_M1_Limit, e.P_M2_Limit, e.I_M1_Limit, e.I_M2_Limit, e.D_M1_Limit, e.D_M2_Limit);
+            asserv2WheelsSpeedDisplay.UpdateIndependantSpeedCorrectionGains(e.P_M1, e.P_M2, e.I_M1, e.I_M2, e.D_M1, e.D_M2);
+            asserv2WheelsSpeedDisplay.UpdateIndependantSpeedCorrectionLimits(e.P_M1_Limit, e.P_M2_Limit, e.I_M1_Limit, e.I_M2_Limit, e.D_M1_Limit, e.D_M2_Limit);
         }
 
         public void OnMessageToDisplayPositionPidSetupReceived(object sender, PolarPIDSetupArgs e)
@@ -209,7 +209,7 @@ namespace RobotInterface
         public void OnMessageToDisplayPositionPidCorrectionReceived(object sender, PolarPidCorrectionArgs e)
         {
             asservPositionDisplay.UpdatePolarSpeedCorrectionValues(e.CorrPx, e.CorrPTheta, e.CorrIx, e.CorrITheta, e.CorrDx, e.CorrDTheta);
-        }        
+        }
 
         public void ResetInterfaceState()
         {
@@ -217,28 +217,28 @@ namespace RobotInterface
             oscilloTheta.ResetGraph();
         }
 
-         public void UpdateSpeedPolarOdometryOnInterface(object sender, PolarSpeedEventArgs e)
+        public void UpdateSpeedPolarOdometryOnInterface(object sender, PolarSpeedEventArgs e)
         {
             oscilloX.AddPointToLine(1, e.timeStampMs / 1000.0, e.Vx);
             oscilloTheta.AddPointToLine(1, e.timeStampMs / 1000.0, e.Vtheta);
             currentTime = e.timeStampMs / 1000.0;
 
-            asservSpeedDisplay.UpdatePolarOdometrySpeed(e.Vx, e.Vtheta);
+            asserv2WheelsSpeedDisplay.UpdatePolarOdometrySpeed(e.Vx, e.Vtheta);
         }
         public void UpdateSpeedIndependantOdometryOnInterface(object sender, IndependantSpeedEventArgs e)
         {
-            asservSpeedDisplay.UpdateIndependantOdometrySpeed(e.VitesseMoteur1, e.VitesseMoteur2);
+            asserv2WheelsSpeedDisplay.UpdateIndependantOdometrySpeed(e.VitesseMoteur1, e.VitesseMoteur2);
         }
         public void ActualizeAccelDataOnGraph(object sender, AccelEventArgs e)
         {
-            oscilloX.AddPointToLine(2, e.timeStampMS, e.accelX);          
+            oscilloX.AddPointToLine(2, e.timeStampMS, e.accelX);
         }
 
         public void UpdateImuDataOnGraph(object sender, IMUDataEventArgs e)
         {
-            oscilloX.AddPointToLine(2, e.EmbeddedTimeStampInMs/1000.0, e.accelX);
+            oscilloX.AddPointToLine(2, e.EmbeddedTimeStampInMs / 1000.0, e.accelX);
             oscilloTheta.AddPointToLine(2, e.EmbeddedTimeStampInMs / 1000.0, e.gyroZ);
-            currentTime = e.EmbeddedTimeStampInMs/1000.0;
+            currentTime = e.EmbeddedTimeStampInMs / 1000.0;
         }
 
         public void UpdatePolarSpeedConsigneOnGraph(object sender, PolarSpeedArgs e)
@@ -296,11 +296,11 @@ namespace RobotInterface
             //oscilloM4.AddPointToLine(3, e.timeStampMS / 1000.0, e.motor4);
         }
 
-        public void UpdateSpeedPolarPidErrorCorrectionConsigneDataOnGraph(object sender, PolarPidErrorCorrectionConsigneDataArgs e)
+        public void UpdateSpeedPolarPidErrorCorrectionConsigneDataOnGraph(object sender, Polar4WheelsPidErrorCorrectionConsigneDataArgs e)
         {
-            asservSpeedDisplay.UpdatePolarSpeedErrorValues(e.xErreur, e.thetaErreur);
-            asservSpeedDisplay.UpdatePolarSpeedCommandValues(e.xCorrection, e.thetaCorrection);
-            asservSpeedDisplay.UpdatePolarSpeedConsigneValues(e.xConsigneFromRobot, e.thetaConsigneFromRobot);
+            asserv2WheelsSpeedDisplay.UpdatePolarSpeedErrorValues(e.xErreur, e.thetaErreur);
+            asserv2WheelsSpeedDisplay.UpdatePolarSpeedCommandValues(e.xCorrection, e.thetaCorrection);
+            asserv2WheelsSpeedDisplay.UpdatePolarSpeedConsigneValues(e.xConsigneFromRobot, e.thetaConsigneFromRobot);
 
             oscilloX.AddPointToLine(3, e.timeStampMS / 1000.0, e.xErreur);
             oscilloX.AddPointToLine(4, e.timeStampMS / 1000.0, e.xCorrection);
@@ -311,26 +311,63 @@ namespace RobotInterface
             oscilloX.AddPointToLine(5, e.timeStampMS / 1000.0, e.xConsigneFromRobot);
             oscilloTheta.AddPointToLine(5, e.timeStampMS / 1000.0, e.thetaConsigneFromRobot);
         }
-        public void UpdateSpeedIndependantPidErrorCorrectionConsigneDataOnGraph(object sender, IndependantPidErrorCorrectionConsigneDataArgs e)
+        public void UpdateSpeedIndependantPidErrorCorrectionConsigneDataOnGraph(object sender, Independant4WheelsPidErrorCorrectionConsigneDataArgs e)
         {
-            asservSpeedDisplay.UpdateIndependantSpeedErrorValues(e.M1Erreur, e.M2Erreur);
-            asservSpeedDisplay.UpdateIndependantSpeedCommandValues(e.M1Correction, e.M2Correction);
-            asservSpeedDisplay.UpdateIndependantSpeedConsigneValues(e.M1ConsigneFromRobot, e.M2ConsigneFromRobot);
+            asserv2WheelsSpeedDisplay.UpdateIndependantSpeedErrorValues(e.M1Erreur, e.M2Erreur);
+            asserv2WheelsSpeedDisplay.UpdateIndependantSpeedCommandValues(e.M1Correction, e.M2Correction);
+            asserv2WheelsSpeedDisplay.UpdateIndependantSpeedConsigneValues(e.M1ConsigneFromRobot, e.M2ConsigneFromRobot);
         }
 
-        public void UpdateSpeedPolarPidCorrectionData(object sender, PolarPidCorrectionArgs e)
+        public void UpdateSpeedPolarPidErrorCorrectionConsigneDataOnGraph(object sender, Polar2WheelsPidErrorCorrectionConsigneDataArgs e)
         {
-            asservSpeedDisplay.UpdatePolarSpeedCorrectionValues(e.CorrPx, e.CorrPTheta,
+            asserv2WheelsSpeedDisplay.UpdatePolarSpeedErrorValues(e.xErreur, e.thetaErreur);
+            asserv2WheelsSpeedDisplay.UpdatePolarSpeedCommandValues(e.xCorrection, e.thetaCorrection);
+            asserv2WheelsSpeedDisplay.UpdatePolarSpeedConsigneValues(e.xConsigneFromRobot, e.thetaConsigneFromRobot);
+
+            oscilloX.AddPointToLine(3, e.timeStampMS / 1000.0, e.xErreur);
+            oscilloX.AddPointToLine(4, e.timeStampMS / 1000.0, e.xCorrection);
+
+            oscilloTheta.AddPointToLine(3, e.timeStampMS / 1000.0, e.thetaErreur);
+            oscilloTheta.AddPointToLine(4, e.timeStampMS / 1000.0, e.thetaCorrection);
+
+            oscilloX.AddPointToLine(5, e.timeStampMS / 1000.0, e.xConsigneFromRobot);
+            oscilloTheta.AddPointToLine(5, e.timeStampMS / 1000.0, e.thetaConsigneFromRobot);
+        }
+        public void UpdateSpeedIndependantPidErrorCorrectionConsigneDataOnGraph(object sender, Independant2WheelsPidErrorCorrectionConsigneDataArgs e)
+        {
+            asserv2WheelsSpeedDisplay.UpdateIndependantSpeedErrorValues(e.M1Erreur, e.M2Erreur);
+            asserv2WheelsSpeedDisplay.UpdateIndependantSpeedCommandValues(e.M1Correction, e.M2Correction);
+            asserv2WheelsSpeedDisplay.UpdateIndependantSpeedConsigneValues(e.M1ConsigneFromRobot, e.M2ConsigneFromRobot);
+        }
+
+        //public void Update4WheelsSpeedPolarPidCorrections(object sender, PolarPidCorrectionArgs e)
+        //{
+        //    asserv4WheelsSpeedDisplay.Updat4WheelsPolarSpeedCorrectionValues(e.CorrPx, e.CorrPy, e.CorrPTheta,
+        //        e.CorrIx, e.CorrIy, e.CorrITheta,
+        //        e.CorrDx, e.CorrDy, e.CorrDTheta);
+        //}
+
+        public void Update2WheelsSpeedPolarPidCorrections(object sender, PolarPidCorrectionArgs e)
+        {
+            asserv2WheelsSpeedDisplay.UpdatePolarSpeedCorrectionValues(e.CorrPx, e.CorrPTheta,
                 e.CorrIx, e.CorrITheta,
                 e.CorrDx, e.CorrDTheta);
         }
 
-        public void UpdateSpeedIndependantPidCorrectionData(object sender, IndependantPidCorrectionArgs e)
+        //public void Update4WheelsSpeedIndependantPidCorrections(object sender, IndependantPidCorrectionArgs e)
+        //{
+        //    asserv4WheelsSpeedDisplay.UpdateIndependantSpeedCorrectionValues(e.CorrPM1, e.CorrPM2, e.CorrPM3, e.CorrPM4,
+        //        e.CorrIM1, e.CorrIM2, e.CorrIM3, e.CorrIM4,
+        //        e.CorrDM1, e.CorrDM2, e.CorrDM3, e.CorrDM4);
+        //}
+
+        public void Update2WheelsSpeedIndependantPidCorrections(object sender, IndependantPidCorrectionArgs e)
         {
-            asservSpeedDisplay.UpdateIndependantSpeedCorrectionValues(e.CorrPM1, e.CorrPM2,
+            asserv2WheelsSpeedDisplay.UpdateIndependantSpeedCorrectionValues(e.CorrPM1, e.CorrPM2,
                 e.CorrIM1, e.CorrIM2,
                 e.CorrDM1, e.CorrDM2);
         }
+
         public void UpdatePowerMonitoringValues(object sender, PowerMonitoringValuesEventArgs e)
         {
             //La solution consiste a passer par un delegué qui executera l'action a effectuer depuis le thread concerné.
@@ -339,7 +376,7 @@ namespace RobotInterface
             //La difference entre un Invoke et un beginInvoke est le fait que le Invoke attend la fin de l'execution de l'action avant de sortir.
             LabelBattCommandVoltage.Dispatcher.BeginInvoke(DispatcherPriority.Normal, new Action(delegate ()
             {
-                LabelBattCommandVoltage.Content = "BATT COMMAND Voltage : " + e.battCMDVoltage.ToString("F2") + "V" + "  Current : " + e.battCMDCurrent.ToString("F2") + "A" ;
+                LabelBattCommandVoltage.Content = "BATT COMMAND Voltage : " + e.battCMDVoltage.ToString("F2") + "V" + "  Current : " + e.battCMDCurrent.ToString("F2") + "A";
             }));
 
 
@@ -401,7 +438,7 @@ namespace RobotInterface
                 OnEnableDisableMotorsFromInterface(false);
             }
             else
-            {                
+            {
                 OnEnableDisableMotorsFromInterface(true);
             }
             ResetInterfaceState();
@@ -431,7 +468,7 @@ namespace RobotInterface
                     LabelMotorState.Content = "Motor State : Disabled";
                 }
             }));
-        }                       
+        }
 
         //Methode appelée sur evenement (event) provenant du port Serie.
         //Cette methode est donc appelée depuis le thread du port Serie. Ce qui peut poser des problemes d'acces inter-thread
@@ -445,19 +482,31 @@ namespace RobotInterface
             currentAsservissementMode = e.mode;
             ButtonChangeAsservissementMode.Dispatcher.BeginInvoke(DispatcherPriority.Normal, new Action(delegate ()
             {
-                switch(currentAsservissementMode)
+                switch (currentAsservissementMode)
                 {
-                    case AsservissementMode.Disabled:
-                        LabelAsservMode.Content = "Asserv Mode :  Disabled";
-                        asservSpeedDisplay.SetAsservissementMode(currentAsservissementMode);
+                    case AsservissementMode.Off4Wheels:
+                        LabelAsservMode.Content = "Asserv 4 Wheels : OFF";
+                        asserv2WheelsSpeedDisplay.SetAsservissementMode(currentAsservissementMode);
                         break;
-                    case AsservissementMode.Independant:
-                        LabelAsservMode.Content = "Asserv Mode : Independant";
-                        asservSpeedDisplay.SetAsservissementMode(currentAsservissementMode);
+                    case AsservissementMode.Off2Wheels:
+                        LabelAsservMode.Content = "Asserv 2 Wheels : OFF";
+                        asserv2WheelsSpeedDisplay.SetAsservissementMode(currentAsservissementMode);
                         break;
-                    case AsservissementMode.Polar:
-                        LabelAsservMode.Content = "Asserv Mode : Polar";
-                        asservSpeedDisplay.SetAsservissementMode(currentAsservissementMode);
+                    case AsservissementMode.Independant4Wheels:
+                        LabelAsservMode.Content = "Asserv 4 Wheels : Independant";
+                        asserv2WheelsSpeedDisplay.SetAsservissementMode(currentAsservissementMode);
+                        break;
+                    case AsservissementMode.Independant2Wheels:
+                        LabelAsservMode.Content = "Asserv 2 Wheels : Independant";
+                        asserv2WheelsSpeedDisplay.SetAsservissementMode(currentAsservissementMode);
+                        break;
+                    case AsservissementMode.Polar4Wheels:
+                        LabelAsservMode.Content = "Asserv 4 Wheels : Polar";
+                        asserv2WheelsSpeedDisplay.SetAsservissementMode(currentAsservissementMode);
+                        break;
+                    case AsservissementMode.Polar2Wheels:
+                        LabelAsservMode.Content = "Asserv 2 Wheels : Polar";
+                        asserv2WheelsSpeedDisplay.SetAsservissementMode(currentAsservissementMode);
                         break;
                 }
             }));
@@ -539,7 +588,7 @@ namespace RobotInterface
                     column = Grid.GetColumn(s);
                 }
             }
-            else if(sender.GetType()== typeof(GroupBox))
+            else if (sender.GetType() == typeof(GroupBox))
             {
                 GroupBox s = (GroupBox)sender;
                 if (s != null)
@@ -592,7 +641,7 @@ namespace RobotInterface
             var handler = OnEnableDisableMotorsFromInterfaceGeneratedEvent;
             if (handler != null)
             {
-                handler(this, new BoolEventArgs { value = val } );
+                handler(this, new BoolEventArgs { value = val });
             }
         }
 
@@ -729,7 +778,7 @@ namespace RobotInterface
             var handler = OnSetRobotPIDFromInterfaceGeneratedEvent;
             if (handler != null)
             {
-                handler(this, new PolarPIDSetupArgs { P_x = px, I_x=ix, D_x=dx, P_y=py, I_y=iy, D_y=dy, P_theta=ptheta, I_theta=itheta, D_theta=dtheta });
+                handler(this, new PolarPIDSetupArgs { P_x = px, I_x = ix, D_x = dx, P_y = py, I_y = iy, D_y = dy, P_theta = ptheta, I_theta = itheta, D_theta = dtheta });
             }
         }
 
@@ -746,19 +795,30 @@ namespace RobotInterface
         }
         #endregion
 
-        AsservissementMode currentAsservissementMode = AsservissementMode.Disabled;
+        AsservissementMode currentAsservissementMode = AsservissementMode.Off2Wheels;
         private void ButtonEnableAsservissement_Click(object sender, RoutedEventArgs e)
         {
-            switch(currentAsservissementMode)
+            switch (currentAsservissementMode)
             {
-                case AsservissementMode.Disabled:
-                    OnSetAsservissementModeFromInterface((byte)AsservissementMode.Polar);
+                case AsservissementMode.Off2Wheels:
+                    OnSetAsservissementModeFromInterface((byte)AsservissementMode.Polar2Wheels);
+                    OnEnableSpeedPIDEnableDebugErrorCorrectionConsigneFromInterface(false);
+                    OnEnableSpeedPIDEnableDebugInternalFromInterface(false);
                     break;
-                case AsservissementMode.Polar:
-                    OnSetAsservissementModeFromInterface((byte)AsservissementMode.Independant);
+                case AsservissementMode.Polar2Wheels:
+                    OnSetAsservissementModeFromInterface((byte)AsservissementMode.Independant2Wheels);
+                    OnEnableSpeedPIDEnableDebugErrorCorrectionConsigneFromInterface(true);
+                    OnEnableSpeedPIDEnableDebugInternalFromInterface(true);
                     break;
-                case AsservissementMode.Independant:
-                    OnSetAsservissementModeFromInterface((byte)AsservissementMode.Disabled);
+                case AsservissementMode.Independant2Wheels:
+                    OnSetAsservissementModeFromInterface((byte)AsservissementMode.Off2Wheels);
+                    OnEnableSpeedPIDEnableDebugErrorCorrectionConsigneFromInterface(true);
+                    OnEnableSpeedPIDEnableDebugInternalFromInterface(true);
+                    break;
+                default:
+                    OnSetAsservissementModeFromInterface((byte)AsservissementMode.Off2Wheels);
+                    OnEnableSpeedPIDEnableDebugErrorCorrectionConsigneFromInterface(true);
+                    OnEnableSpeedPIDEnableDebugInternalFromInterface(true);
                     break;
             }
         }
@@ -775,8 +835,8 @@ namespace RobotInterface
             //    OnEnableSpeedPIDEnableDebugInternalFromInterface(false);
             //    OnEnableSpeedPIDEnableDebugErrorCorrectionConsigneFromInterface(false);
             //}
-        }               
-        
+        }
+
         bool currentXBoxActivation = false;
         private void ButtonXBoxController_Click(object sender, RoutedEventArgs e)
         {
@@ -791,7 +851,7 @@ namespace RobotInterface
                 OnEnableDisableControlManetteFromInterface(false);
                 LabelXBoxControllerMode.Content = "XBox Pad : Disabled";
             }
-        }              
+        }
 
         private void worldMapDisplayStrategy_Loaded(object sender, RoutedEventArgs e)
         {
