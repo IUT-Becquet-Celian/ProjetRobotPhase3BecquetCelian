@@ -76,6 +76,10 @@
       <Project>{9C46A7C0-4675-41BE-B282-E6F0825AD73E}</Project>
       <Name>EventArgsLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="..\globalPositioning\globalPositioning.csproj">
+      <Project>{d8f814b1-337c-4292-b38a-2a63e8406535}</Project>
+      <Name>globalPositioning</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MessageDecoder\MessageDecoder.csproj">
       <Project>{4603885F-CC5E-43E5-A4AF-063030CB0A32}</Project>
       <Name>MessageDecoder</Name>

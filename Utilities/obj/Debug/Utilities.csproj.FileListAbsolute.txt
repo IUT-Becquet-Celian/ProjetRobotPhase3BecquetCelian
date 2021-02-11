@@ -40,3 +40,4 @@ C:\Github\ProjetRobotPhase3BecquetCelian\Utilities\obj\Debug\Utilities.csprojAss
 C:\Github\ProjetRobotPhase3BecquetCelian\Utilities\obj\Debug\Utilities.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3BecquetCelian\Utilities\obj\Debug\Utilities.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\Utilities\obj\Debug\Utilities.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache

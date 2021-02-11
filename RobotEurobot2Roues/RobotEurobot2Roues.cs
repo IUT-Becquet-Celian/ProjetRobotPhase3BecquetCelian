@@ -4,6 +4,7 @@ using MessageEncoder;
 using MessageGeneratorNS;
 using MessageProcessorNS;
 using RobotInterface;
+using GlobalPositioning;
 using System;
 using System.Runtime.InteropServices;
 using System.Threading;
@@ -24,6 +25,7 @@ namespace RobotEurobot2Roues
         static MsgProcessor robotMsgProcessor;
         static XBoxController xBoxManette;
         static StrategyGenerique strategyManager;
+        static GlbPositioning robotGlobalPositioning;
 
         static WpfRobot2RouesInterface interfaceRobot;
         static GameMode competition = GameMode.Eurobot;
@@ -48,6 +50,7 @@ namespace RobotEurobot2Roues
             robotMsgProcessor = new MsgProcessor(robotId, competition);
             xBoxManette = new XBoxControllerNS.XBoxController(robotId);
             strategyManager = new StrategyEurobot(robotId, teamId, "224.16.32.79");
+            robotGlobalPositioning = new GlbPositioning();
 
             /// Création des liens entre module, sauf depuis et vers l'interface graphique           
             usbDriver.OnUSBDataReceivedEvent += msgDecoder.DecodeMsgReceived;                                   // Transmission des messages reçus par l'USB au Message Decoder
@@ -144,6 +147,9 @@ namespace RobotEurobot2Roues
 
             /// Affichage des infos en provenance du strategyManager
             strategyManager.OnTextMessageEvent += interfaceRobot.AppendConsole;
+
+            /// Position x y theta
+            robotMsgProcessor.OnSpeedPolarOdometryFromRobotEvent += robotGlobalPositioning.PolarSpeedProcessIntoPosition;
 
 
         }

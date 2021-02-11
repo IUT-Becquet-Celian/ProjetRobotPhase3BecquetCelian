@@ -14,3 +14,4 @@ C:\Github\ProjetRobotPhase3BecquetCelian\Constants\bin\Debug\Constants.pdb
 C:\Github\ProjetRobotPhase3BecquetCelian\Constants\obj\Debug\Constants.csprojAssemblyReference.cache
 C:\Github\ProjetRobotPhase3BecquetCelian\Constants\obj\Debug\Constants.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\Constants\obj\Debug\Constants.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\Constants\obj\Debug\Constants.csproj.CoreCompileInputs.cache

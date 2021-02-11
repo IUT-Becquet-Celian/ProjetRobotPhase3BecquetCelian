@@ -121,3 +121,4 @@ C:\Github\ProjetRobotPhase3BecquetCelian\WpfRobot2RouesInterface\RobotInterface\
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfRobot2RouesInterface\RobotInterface\obj\Debug\WpfRobot2RouesInterface.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfRobot2RouesInterface\RobotInterface\obj\Debug\RobotInterface.exe
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfRobot2RouesInterface\RobotInterface\obj\Debug\RobotInterface.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\WpfRobot2RouesInterface\RobotInterface\obj\Debug\WpfRobot2RouesInterface.csproj.CoreCompileInputs.cache

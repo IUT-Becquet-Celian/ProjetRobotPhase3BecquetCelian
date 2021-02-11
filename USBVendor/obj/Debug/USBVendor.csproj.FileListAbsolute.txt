@@ -60,3 +60,4 @@ C:\Github\ProjetRobotPhase3BecquetCelian\USBVendor\obj\Debug\USBVendor.csprojAss
 C:\Github\ProjetRobotPhase3BecquetCelian\USBVendor\obj\Debug\USBVendor.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3BecquetCelian\USBVendor\obj\Debug\USBVendor.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\USBVendor\obj\Debug\USBVendor.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\USBVendor\obj\Debug\USBVendor.csproj.CoreCompileInputs.cache

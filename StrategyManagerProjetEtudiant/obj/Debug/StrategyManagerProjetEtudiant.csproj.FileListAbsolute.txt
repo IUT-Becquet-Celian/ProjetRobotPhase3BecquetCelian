@@ -68,3 +68,4 @@ C:\Github\ProjetRobotPhase3BecquetCelian\StrategyManagerProjetEtudiant\obj\Debug
 C:\Github\ProjetRobotPhase3BecquetCelian\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3BecquetCelian\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.csproj.CoreCompileInputs.cache

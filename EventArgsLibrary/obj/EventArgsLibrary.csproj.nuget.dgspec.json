@@ -5,7 +5,6 @@
   },
   "projects": {
     "C:\\Github\\ProjetRobotPhase3BecquetCelian\\Constants\\Constants.csproj": {
-      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\Constants\\Constants.csproj",
         "projectName": "Constants",
@@ -21,12 +20,12 @@
         "projectUniqueName": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\EventArgsLibrary\\EventArgsLibrary.csproj",
         "projectName": "EventArgsLibrary",
         "projectPath": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\EventArgsLibrary\\EventArgsLibrary.csproj",
-        "packagesPath": "C:\\Users\\LattePanda\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Table2\\.nuget\\packages\\",
         "outputPath": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\EventArgsLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\LattePanda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Table2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,12 +79,12 @@
         "projectUniqueName": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
         "projectPath": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\Utilities\\Utilities.csproj",
-        "packagesPath": "C:\\Users\\LattePanda\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Table2\\.nuget\\packages\\",
         "outputPath": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\LattePanda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Table2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,7 +135,6 @@
       }
     },
     "C:\\Github\\ProjetRobotPhase3BecquetCelian\\WorldMap\\WorldMap.csproj": {
-      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\WorldMap\\WorldMap.csproj",
         "projectName": "WorldMap",

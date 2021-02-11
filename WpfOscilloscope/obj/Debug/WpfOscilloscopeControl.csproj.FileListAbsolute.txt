@@ -50,3 +50,4 @@ C:\Github\ProjetRobotPhase3BecquetCelian\WpfOscilloscope\obj\Debug\WpfOscillosco
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfOscilloscope\obj\Debug\WpfOscilloscopeControl.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfOscilloscope\obj\Debug\WpfOscilloscopeControl.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfOscilloscope\obj\Debug\WpfOscilloscopeControl.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\WpfOscilloscope\obj\Debug\WpfOscilloscopeControl.csproj.CoreCompileInputs.cache

@@ -47,3 +47,4 @@ C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\obj\Debug\WorldMap.csprojAssem
 C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\obj\Debug\WorldMap.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\obj\Debug\WorldMap.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\obj\Debug\WorldMap.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\obj\Debug\WorldMap.csproj.CoreCompileInputs.cache

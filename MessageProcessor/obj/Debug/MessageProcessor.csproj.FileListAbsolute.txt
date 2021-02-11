@@ -60,3 +60,4 @@ C:\Github\ProjetRobotPhase3BecquetCelian\MessageProcessor\obj\Debug\MessageProce
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageProcessor\obj\Debug\MessageProcessor.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageProcessor\obj\Debug\MessageProcessorNS.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageProcessor\obj\Debug\MessageProcessorNS.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\MessageProcessor\obj\Debug\MessageProcessor.csproj.CoreCompileInputs.cache

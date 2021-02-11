@@ -89,3 +89,4 @@ C:\Github\ProjetRobotPhase3BecquetCelian\XboxController\obj\Debug\XboxController
 C:\Github\ProjetRobotPhase3BecquetCelian\XboxController\obj\Debug\XboxController.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3BecquetCelian\XboxController\obj\Debug\XboxController.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\XboxController\obj\Debug\XboxController.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\XboxController\obj\Debug\XboxController.csproj.CoreCompileInputs.cache

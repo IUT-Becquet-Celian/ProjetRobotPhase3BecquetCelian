@@ -58,3 +58,4 @@ C:\Github\ProjetRobotPhase3BecquetCelian\MessageEncoder\obj\Debug\MessageEncoder
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageEncoder\obj\Debug\MessageEncoder.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageEncoder\obj\Debug\MessageEncoder.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageEncoder\obj\Debug\MessageEncoder.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\MessageEncoder\obj\Debug\MessageEncoder.csproj.CoreCompileInputs.cache

@@ -62,3 +62,4 @@ C:\Github\ProjetRobotPhase3BecquetCelian\MessageGenerator\obj\Debug\MessageGener
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageGenerator\obj\Debug\MessageGenerator.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageGenerator\obj\Debug\MessageGeneratorNS.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageGenerator\obj\Debug\MessageGeneratorNS.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\MessageGenerator\obj\Debug\MessageGenerator.csproj.CoreCompileInputs.cache

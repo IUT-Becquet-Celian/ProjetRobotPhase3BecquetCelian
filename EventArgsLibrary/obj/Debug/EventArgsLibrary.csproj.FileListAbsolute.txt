@@ -63,3 +63,4 @@ C:\Github\ProjetRobotPhase3BecquetCelian\EventArgsLibrary\bin\Debug\WorldMap.pdb
 C:\Github\ProjetRobotPhase3BecquetCelian\EventArgsLibrary\obj\Debug\EventArgsLibrary.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3BecquetCelian\EventArgsLibrary\obj\Debug\EventArgsLibrary.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\EventArgsLibrary\obj\Debug\EventArgsLibrary.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\EventArgsLibrary\obj\Debug\EventArgsLibrary.csproj.CoreCompileInputs.cache

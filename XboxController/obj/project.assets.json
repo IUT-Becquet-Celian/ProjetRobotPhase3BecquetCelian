@@ -791,7 +791,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LattePanda\\.nuget\\packages\\": {}
+    "C:\\Users\\Table2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -799,12 +799,12 @@
       "projectUniqueName": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\XboxController\\XboxController.csproj",
       "projectName": "XboxController",
       "projectPath": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\XboxController\\XboxController.csproj",
-      "packagesPath": "C:\\Users\\LattePanda\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Table2\\.nuget\\packages\\",
       "outputPath": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\XboxController\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\LattePanda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Table2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

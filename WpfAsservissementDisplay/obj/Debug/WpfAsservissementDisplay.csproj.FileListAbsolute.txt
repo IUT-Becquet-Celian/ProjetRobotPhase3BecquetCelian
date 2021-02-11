@@ -70,3 +70,4 @@ C:\Github\ProjetRobotPhase3BecquetCelian\WpfAsservissementDisplay\obj\Debug\WpfA
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfAsservissementDisplay\obj\Debug\WpfAsservissementDisplay.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfAsservissementDisplay\obj\Debug\WpfAsservissementDisplay.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfAsservissementDisplay\obj\Debug\WpfAsservissementDisplay.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\WpfAsservissementDisplay\obj\Debug\WpfAsservissementDisplay.csproj.CoreCompileInputs.cache

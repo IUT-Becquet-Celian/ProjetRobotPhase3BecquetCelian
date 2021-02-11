@@ -105,3 +105,4 @@ C:\Github\ProjetRobotPhase3BecquetCelian\WpfWorldMapDisplay\obj\Debug\WpfWorldMa
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.csproj.CopyComplete
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.csproj.CoreCompileInputs.cache
