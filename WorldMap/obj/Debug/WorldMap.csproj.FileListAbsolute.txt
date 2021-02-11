@@ -33,3 +33,17 @@ C:\Github\ProjetRobotPhase3\WorldMap\obj\Debug\WorldMap.dll
 C:\Github\ProjetRobotPhase3\WorldMap\obj\Debug\WorldMap.pdb
 C:\Github\ProjetRobotPhase3\WorldMap\bin\Debug\Newtonsoft.Json.dll
 C:\Github\ProjetRobotPhase3\WorldMap\bin\Debug\ZeroFormatter.Interfaces.dll
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\bin\Debug\WorldMap.dll
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\bin\Debug\WorldMap.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\bin\Debug\Constants.dll
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\bin\Debug\Newtonsoft.Json.dll
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\bin\Debug\Utilities.dll
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\bin\Debug\ZeroFormatter.Interfaces.dll
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\bin\Debug\Constants.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\bin\Debug\Utilities.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\obj\Debug\WorldMap.csprojAssemblyReference.cache
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\obj\Debug\WorldMap.csproj.CopyComplete
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\obj\Debug\WorldMap.dll
+C:\Github\ProjetRobotPhase3BecquetCelian\WorldMap\obj\Debug\WorldMap.pdb

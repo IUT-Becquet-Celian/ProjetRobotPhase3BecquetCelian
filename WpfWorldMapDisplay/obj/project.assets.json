@@ -611,41 +611,43 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Valentin\\.nuget\\packages\\": {}
+    "C:\\Users\\LattePanda\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj",
+      "projectUniqueName": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj",
       "projectName": "WpfWorldMapDisplay",
-      "projectPath": "C:\\Github\\ProjetRobotPhase3\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj",
-      "packagesPath": "C:\\Users\\Valentin\\.nuget\\packages\\",
-      "outputPath": "C:\\Github\\ProjetRobotPhase3\\WpfWorldMapDisplay\\obj\\",
+      "projectPath": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj",
+      "packagesPath": "C:\\Users\\LattePanda\\.nuget\\packages\\",
+      "outputPath": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\WpfWorldMapDisplay\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Valentin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\LattePanda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net48"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
-              "projectPath": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj"
+            "C:\\Github\\ProjetRobotPhase3BecquetCelian\\Constants\\Constants.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\Constants\\Constants.csproj"
             },
-            "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
-              "projectPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj"
+            "C:\\Github\\ProjetRobotPhase3BecquetCelian\\EventArgsLibrary\\EventArgsLibrary.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\EventArgsLibrary\\EventArgsLibrary.csproj"
             },
-            "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
-              "projectPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
+            "C:\\Github\\ProjetRobotPhase3BecquetCelian\\Utilities\\Utilities.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\Utilities\\Utilities.csproj"
             },
-            "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
-              "projectPath": "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj"
+            "C:\\Github\\ProjetRobotPhase3BecquetCelian\\WorldMap\\WorldMap.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\WorldMap\\WorldMap.csproj"
             }
           }
         }
