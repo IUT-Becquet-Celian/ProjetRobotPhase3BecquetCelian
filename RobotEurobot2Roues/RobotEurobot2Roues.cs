@@ -4,7 +4,6 @@ using MessageEncoder;
 using MessageGeneratorNS;
 using MessageProcessorNS;
 using RobotInterface;
-using GlobalPositioning;
 using System;
 using System.Runtime.InteropServices;
 using System.Threading;
@@ -13,6 +12,8 @@ using XBoxControllerNS;
 using Constants;
 using StrategyManagerProjetEtudiantNS;
 using SciChart.Charting.Visuals;
+using TrajectoryManagerNS;
+using GlobalPositioningNS;
 
 namespace RobotEurobot2Roues
 {
@@ -25,7 +26,8 @@ namespace RobotEurobot2Roues
         static MsgProcessor robotMsgProcessor;
         static XBoxController xBoxManette;
         static StrategyGenerique strategyManager;
-        static GlbPositioning robotGlobalPositioning;
+        static GlobalPositioning robotGlobalPositioning;
+        static TrajectoryManager trajectoryManager;
 
         static WpfRobot2RouesInterface interfaceRobot;
         static GameMode competition = GameMode.Eurobot;
@@ -50,11 +52,16 @@ namespace RobotEurobot2Roues
             robotMsgProcessor = new MsgProcessor(robotId, competition);
             xBoxManette = new XBoxControllerNS.XBoxController(robotId);
             strategyManager = new StrategyEurobot(robotId, teamId, "224.16.32.79");
-            robotGlobalPositioning = new GlbPositioning();
+            robotGlobalPositioning = new GlobalPositioning();
+            trajectoryManager = new TrajectoryManager();
 
             /// Création des liens entre module, sauf depuis et vers l'interface graphique           
             usbDriver.OnUSBDataReceivedEvent += msgDecoder.DecodeMsgReceived;                                   // Transmission des messages reçus par l'USB au Message Decoder
             msgDecoder.OnMessageDecodedEvent += robotMsgProcessor.ProcessRobotDecodedMessage;                   // Transmission les messages décodés par le Message Decoder au Message Processor
+
+            /// Position x y theta
+            robotMsgProcessor.OnSpeedPolarOdometryFromRobotEvent += robotGlobalPositioning.PolarSpeedProcessIntoPosition;
+            robotGlobalPositioning.OnPositionEvent += trajectoryManager.PositionReceived;
 
             strategyManager.On2WheelsToPolarMatrixSetupEvent += robotMsgGenerator.GenerateMessage2WheelsToPolarMatrixSet;   //Transmission des messages de set-up de la matrice de transformation moteurindepeandt -> polaire en embarqué
             strategyManager.On2WheelsAngleSetupEvent += robotMsgGenerator.GenerateMessage2WheelsAngleSet;                   //Transmission des messages de set-up de la config angulaire des roues en embarqué
@@ -147,11 +154,7 @@ namespace RobotEurobot2Roues
 
             /// Affichage des infos en provenance du strategyManager
             strategyManager.OnTextMessageEvent += interfaceRobot.AppendConsole;
-
-            /// Position x y theta
-            robotMsgProcessor.OnSpeedPolarOdometryFromRobotEvent += robotGlobalPositioning.PolarSpeedProcessIntoPosition;
-
-
+            
         }
 
         static void ChangeUseOfXBoxController(object sender, BoolEventArgs e)

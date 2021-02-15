@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D8F814B1-337C-4292-B38A-2A63E8406535}</ProjectGuid>
+    <ProjectGuid>{BD86948A-E5F9-490E-B470-16A822E3EA4A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GlobalPositioningNS</RootNamespace>
-    <AssemblyName>GlobalPositioning</AssemblyName>
+    <RootNamespace>TrajectoryManagerNS</RootNamespace>
+    <AssemblyName>TrajectoryManager</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,16 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GlobalPositioning.cs" />
+    <Compile Include="TrajectoryManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EventArgsLibrary\EventArgsLibrary.csproj">
-      <Project>{9c46a7c0-4675-41be-b282-e6f0825ad73e}</Project>
+      <Project>{9C46A7C0-4675-41BE-B282-E6F0825AD73E}</Project>
       <Name>EventArgsLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="..\Utilities\Utilities.csproj">
-      <Project>{8E7D0DA4-9A13-4B18-A90E-0243BBCCE40A}</Project>
+      <Project>{8e7d0da4-9a13-4b18-a90e-0243bbcce40a}</Project>
       <Name>Utilities</Name>
     </ProjectReference>
   </ItemGroup>

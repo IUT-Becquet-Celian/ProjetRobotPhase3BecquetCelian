@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 using EventArgsLibrary;
+using Utilities;
 
-namespace GlobalPositioning
+namespace GlobalPositioningNS
 {
-    public class GlbPositioning
+    public class GlobalPositioning
     {
         float posX=0, posY=0, Theta=0, Fech=50f;
 
@@ -20,8 +21,20 @@ namespace GlobalPositioning
 
             Console.WriteLine("posX : " + posX + "  posY : " + posY + "  Theta : " + Theta);
         }
-        
 
-
-    }
+        /************************** Ouput events ************************************************/
+        public event EventHandler<LocationArgs> OnPositionEvent;
+        public virtual void OnPosition(int robotID, Location loc)
+        {
+            var handler = OnPositionEvent;
+            if (handler != null)
+            {
+                handler(this, new LocationArgs
+                {
+                    RobotId = robotID,
+                    Location = loc
+                }); ;
+            }
+        }
+    }    
 }

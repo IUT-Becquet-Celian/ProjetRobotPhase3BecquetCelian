@@ -161,3 +161,5 @@ C:\Github\ProjetRobotPhase3BecquetCelian\RobotEurobot2Roues\obj\Debug\RobotEurob
 C:\Github\ProjetRobotPhase3BecquetCelian\RobotEurobot2Roues\obj\Debug\RobotEurobot2Roues.csproj.CoreCompileInputs.cache
 C:\Github\ProjetRobotPhase3BecquetCelian\RobotEurobot2Roues\bin\Debug\globalPositioning.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\RobotEurobot2Roues\bin\Debug\globalPositioning.pdb
+C:\Github\ProjetRobotPhase3BecquetCelian\RobotEurobot2Roues\bin\Debug\TrajectoryManager.dll
+C:\Github\ProjetRobotPhase3BecquetCelian\RobotEurobot2Roues\bin\Debug\TrajectoryManager.pdb
