@@ -14,6 +14,7 @@ using StrategyManagerProjetEtudiantNS;
 using SciChart.Charting.Visuals;
 using TrajectoryManagerNS;
 using GlobalPositioningNS;
+using WorldMap;
 
 namespace RobotEurobot2Roues
 {
@@ -28,6 +29,7 @@ namespace RobotEurobot2Roues
         static StrategyGenerique strategyManager;
         static GlobalPositioning robotGlobalPositioning;
         static TrajectoryManager trajectoryManager;
+        static LocalWorldMap localWorldMap;
 
         static WpfRobot2RouesInterface interfaceRobot;
         static GameMode competition = GameMode.Eurobot;
@@ -53,7 +55,7 @@ namespace RobotEurobot2Roues
             xBoxManette = new XBoxControllerNS.XBoxController(robotId);
             strategyManager = new StrategyEurobot(robotId, teamId, "224.16.32.79");
             robotGlobalPositioning = new GlobalPositioning();
-            trajectoryManager = new TrajectoryManager();
+            trajectoryManager = new TrajectoryManager(robotId);
 
             /// Création des liens entre module, sauf depuis et vers l'interface graphique           
             usbDriver.OnUSBDataReceivedEvent += msgDecoder.DecodeMsgReceived;                                   // Transmission des messages reçus par l'USB au Message Decoder
@@ -69,6 +71,8 @@ namespace RobotEurobot2Roues
             strategyManager.On2WheelsPolarSpeedPIDSetupEvent += robotMsgGenerator.GenerateMessage2WheelsPolarSpeedPIDSetup;                 //Setup du PID Polaire
             strategyManager.On2WheelsIndependantSpeedPIDSetupEvent += robotMsgGenerator.GenerateMessage2WheelsIndependantSpeedPIDSetup;     //Setup du PID independant
             strategyManager.OnSetSpeedConsigneToMotor += robotMsgGenerator.GenerateMessageSetSpeedConsigneToMotor;                          //Transmission des commande de vitesse (en polaire)
+
+            trajectoryManager.OnGhostLocationEvent +=  OnGhostLocationReceived;
 
             robotMsgGenerator.OnMessageToRobotGeneratedEvent += msgEncoder.EncodeMessageToRobot;                // Envoi des messages du générateur de message à l'encoder
             msgEncoder.OnMessageEncodedEvent += usbDriver.SendUSBMessage;                                       // Envoi des messages en USB depuis le message encoder

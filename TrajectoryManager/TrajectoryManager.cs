@@ -25,6 +25,10 @@ namespace TrajectoryManagerNS
         double vitesseAngulaireGhost;
         double vitesseAngulaireMax;
         double angleGhost;
+        double accelerationLineaire = 1;
+        double vitesseLineaireGhost;
+        double vitesseLineaireMax;
+        double distanceGhost;
         double xGhost;
         double yGhost;
         //double angleCible;
@@ -33,6 +37,7 @@ namespace TrajectoryManagerNS
         
         public void UpdateGhost()
         {
+
             switch(trajectoryState)
             {
                 case TrajectoryState.Idle:
@@ -71,6 +76,35 @@ namespace TrajectoryManagerNS
                         }
                     }
                     break;
+
+                case TrajectoryState.Avance:
+                    {
+                        ///On calcule dans un premier temps la distance d'arret du ghost
+                        double distanceArretGhost = vitesseLineaireGhost * vitesseLineaireGhost / (2 * accelerationLineaire);
+                        ///Puis on calcule la distance cible
+                        double distanceCible = Math.Sqrt(Math.Pow(destination.Y - yGhost, 2) + Math.Pow(destination.X - xGhost, 2));
+                        ///Puis on calcule la distance restante à parcourir
+                        double distanceRestante = distanceCible - distanceGhost;
+                        /// On regarde si on peut accélérer ou si il faut freiner ou rester à vitesse constante
+                        if (distanceArretGhost < Math.Abs(distanceRestante))
+                        {
+                            if (Math.Abs(vitesseLineaireGhost) < vitesseLineaireMax)
+                            {
+                                /// On peut accélérer
+                                vitesseLineaireGhost += accelerationLineaire * 1 / Fech;
+                            }
+                            else
+                            {
+                                ///Rien, on reste à la même vitesse
+                            }
+                        }
+                        else
+                        {
+                            /// On doit freiner
+                           vitesseLineaireGhost -= accelerationAngulaire * 1 / Fech;
+                        }
+                    }
+                    break;
                 default:
                     break;
             }
@@ -101,6 +135,17 @@ namespace TrajectoryManagerNS
         public void DestinationReceived(object sender, LocationArgs e)
         {
             UpdateDestination(new PointD(e.Location.X, e.Location.Y));
+        }
+
+        /***************************************  Outgoing events ********************************/
+        public event EventHandler<LocationArgs> OnGhostLocationEvent;
+        public virtual void OnGhostLocation(int id, Location loc)
+        {
+            var handler = OnGhostLocationEvent;
+            if (handler != null)
+            {
+                handler(this, new LocationArgs { RobotId = id, Location = loc });
+            }
         }
     }
 }
