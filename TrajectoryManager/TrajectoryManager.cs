@@ -19,6 +19,8 @@ namespace TrajectoryManagerNS
     {
         float Fech = 50f;
 
+        int robotId;
+
         PointD destination;
 
         double accelerationAngulaire = 1;
@@ -34,6 +36,11 @@ namespace TrajectoryManagerNS
         //double angleCible;
 
         TrajectoryState trajectoryState = TrajectoryState.Idle;
+
+        public TrajectoryManager(int id)
+        {
+            robotId = id;
+        }
         
         public void UpdateGhost()
         {
@@ -108,7 +115,10 @@ namespace TrajectoryManagerNS
                 default:
                     break;
             }
-            
+
+            OnGhostLocation(robotId, new Location(xGhost, yGhost, angleGhost, vitesseLineaireGhost * Math.Cos(angleGhost), vitesseLineaireGhost * Math.Sin(angleGhost), vitesseAngulaireGhost));
+
+
         }
 
         void UpdateDestination(PointD destination)
