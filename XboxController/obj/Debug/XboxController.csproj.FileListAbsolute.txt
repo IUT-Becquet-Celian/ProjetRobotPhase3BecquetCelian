@@ -60,6 +60,7 @@ C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\SciChart.Charting.dll
 C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\SciChart.Core.dll
 C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\SciChart.Data.dll
 C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\SciChart.Drawing.dll
+<<<<<<< HEAD
 C:\Github\ProjetRobotPhase3BecquetCelian\XboxController\bin\Debug\XboxController.dll.config
 C:\Github\ProjetRobotPhase3BecquetCelian\XboxController\bin\Debug\XboxController.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\XboxController\bin\Debug\XboxController.pdb
@@ -90,3 +91,8 @@ C:\Github\ProjetRobotPhase3BecquetCelian\XboxController\obj\Debug\XboxController
 C:\Github\ProjetRobotPhase3BecquetCelian\XboxController\obj\Debug\XboxController.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\XboxController\obj\Debug\XboxController.pdb
 C:\Github\ProjetRobotPhase3BecquetCelian\XboxController\obj\Debug\XboxController.csproj.CoreCompileInputs.cache
+=======
+C:\Github\ProjetRobotPhase3\XboxController\obj\Debug\XboxController.csproj.CoreCompileInputs.cache
+C:\Github\ProjetRobotPhase3\XboxController\bin\Debug\WorldMapManager.dll
+C:\Github\ProjetRobotPhase3\XboxController\bin\Debug\WorldMapManager.pdb
+>>>>>>> main

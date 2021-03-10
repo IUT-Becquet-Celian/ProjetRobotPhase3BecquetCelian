@@ -4,7 +4,11 @@
     "C:\\Github\\ProjetRobotPhase3BecquetCelian\\WpfWorldMapDisplay\\WpfWorldMapDisplay.csproj": {}
   },
   "projects": {
+<<<<<<< HEAD
     "C:\\Github\\ProjetRobotPhase3BecquetCelian\\Constants\\Constants.csproj": {
+=======
+    "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+>>>>>>> main
       "restore": {
         "projectUniqueName": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\Constants\\Constants.csproj",
         "projectName": "Constants",
@@ -134,7 +138,11 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Github\\ProjetRobotPhase3BecquetCelian\\WorldMap\\WorldMap.csproj": {
+=======
+    "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
+>>>>>>> main
       "restore": {
         "projectUniqueName": "C:\\Github\\ProjetRobotPhase3BecquetCelian\\WorldMap\\WorldMap.csproj",
         "projectName": "WorldMap",

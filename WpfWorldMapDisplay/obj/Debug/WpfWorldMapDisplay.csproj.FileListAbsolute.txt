@@ -72,6 +72,7 @@ C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.g.re
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.Properties.Resources.resources
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.csproj.GenerateResource.cache
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.csproj.CopyComplete
+<<<<<<< HEAD
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfWorldMapDisplay\bin\Debug\WpfWorldMapDisplay.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfWorldMapDisplay\bin\Debug\WpfWorldMapDisplay.pdb
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfWorldMapDisplay\bin\Debug\Newtonsoft.Json.dll
@@ -106,3 +107,6 @@ C:\Github\ProjetRobotPhase3BecquetCelian\WpfWorldMapDisplay\obj\Debug\WpfWorldMa
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.pdb
 C:\Github\ProjetRobotPhase3BecquetCelian\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.csproj.CoreCompileInputs.cache
+=======
+C:\Github\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.csproj.CoreCompileInputs.cache
+>>>>>>> main

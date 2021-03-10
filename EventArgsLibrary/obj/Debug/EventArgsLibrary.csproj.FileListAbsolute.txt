@@ -42,6 +42,7 @@ C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\SciChart.Charting.dll
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\SciChart.Core.dll
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\SciChart.Data.dll
 C:\GitHub\ProjetRobotPhase3\EventArgsLibrary\bin\Debug\SciChart.Drawing.dll
+<<<<<<< HEAD
 C:\Github\ProjetRobotPhase3BecquetCelian\EventArgsLibrary\obj\Debug\EventArgsLibrary.csprojAssemblyReference.cache
 C:\Github\ProjetRobotPhase3BecquetCelian\EventArgsLibrary\bin\Debug\EventArgsLibrary.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\EventArgsLibrary\bin\Debug\EventArgsLibrary.pdb
@@ -64,3 +65,6 @@ C:\Github\ProjetRobotPhase3BecquetCelian\EventArgsLibrary\obj\Debug\EventArgsLib
 C:\Github\ProjetRobotPhase3BecquetCelian\EventArgsLibrary\obj\Debug\EventArgsLibrary.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\EventArgsLibrary\obj\Debug\EventArgsLibrary.pdb
 C:\Github\ProjetRobotPhase3BecquetCelian\EventArgsLibrary\obj\Debug\EventArgsLibrary.csproj.CoreCompileInputs.cache
+=======
+C:\Github\ProjetRobotPhase3\EventArgsLibrary\obj\Debug\EventArgsLibrary.csproj.CoreCompileInputs.cache
+>>>>>>> main

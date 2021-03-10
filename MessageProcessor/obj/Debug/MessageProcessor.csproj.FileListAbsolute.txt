@@ -42,6 +42,7 @@ C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\ICSharpCode.SharpZipLib.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\obj\Debug\MessageProcessor.csproj.CopyComplete
+<<<<<<< HEAD
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageProcessor\bin\Debug\MessageProcessorNS.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageProcessor\bin\Debug\MessageProcessorNS.pdb
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageProcessor\bin\Debug\Constants.dll
@@ -61,3 +62,6 @@ C:\Github\ProjetRobotPhase3BecquetCelian\MessageProcessor\obj\Debug\MessageProce
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageProcessor\obj\Debug\MessageProcessorNS.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageProcessor\obj\Debug\MessageProcessorNS.pdb
 C:\Github\ProjetRobotPhase3BecquetCelian\MessageProcessor\obj\Debug\MessageProcessor.csproj.CoreCompileInputs.cache
+=======
+C:\Github\ProjetRobotPhase3\MessageProcessor\obj\Debug\MessageProcessor.csproj.CoreCompileInputs.cache
+>>>>>>> main

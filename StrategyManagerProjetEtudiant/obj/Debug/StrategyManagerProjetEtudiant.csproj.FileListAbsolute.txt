@@ -49,6 +49,7 @@ C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\Utilities.pd
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\ICSharpCode.SharpZipLib.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.csproj.CopyComplete
+<<<<<<< HEAD
 C:\Github\ProjetRobotPhase3BecquetCelian\StrategyManagerProjetEtudiant\bin\Debug\StrategyManagerProjetEtudiant.dll.config
 C:\Github\ProjetRobotPhase3BecquetCelian\StrategyManagerProjetEtudiant\bin\Debug\StrategyManagerProjetEtudiant.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\StrategyManagerProjetEtudiant\bin\Debug\StrategyManagerProjetEtudiant.pdb
@@ -69,3 +70,6 @@ C:\Github\ProjetRobotPhase3BecquetCelian\StrategyManagerProjetEtudiant\obj\Debug
 C:\Github\ProjetRobotPhase3BecquetCelian\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.dll
 C:\Github\ProjetRobotPhase3BecquetCelian\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.pdb
 C:\Github\ProjetRobotPhase3BecquetCelian\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.csproj.CoreCompileInputs.cache
+=======
+C:\Github\ProjetRobotPhase3\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.csproj.CoreCompileInputs.cache
+>>>>>>> main

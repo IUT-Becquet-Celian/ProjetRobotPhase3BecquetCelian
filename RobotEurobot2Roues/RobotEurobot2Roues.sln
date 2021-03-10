@@ -35,9 +35,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAsservissementDisplay", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfWorldMapDisplay", "..\WpfWorldMapDisplay\WpfWorldMapDisplay.csproj", "{89604641-927E-47FF-8DB6-91CF5C4976C1}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalPositioning", "..\globalPositioning\GlobalPositioning.csproj", "{D8F814B1-337C-4292-B38A-2A63E8406535}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrajectoryManager", "..\TrajectoryManager\TrajectoryManager.csproj", "{BD86948A-E5F9-490E-B470-16A822E3EA4A}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Positioning2Wheels", "..\Positioning2Wheels\Positioning2Wheels.csproj", "{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrajectoryGeneratorNonHolonome", "..\TrajectoryGeneratorNonHolonome\TrajectoryGeneratorNonHolonome.csproj", "{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldMapManager", "..\WorldMapManager\WorldMapManager.csproj", "{01E89552-13A5-4A24-80B2-9246700F72FD}"
+>>>>>>> main
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -175,6 +183,7 @@ Global
 		{89604641-927E-47FF-8DB6-91CF5C4976C1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{89604641-927E-47FF-8DB6-91CF5C4976C1}.Release|x64.ActiveCfg = Release|x64
 		{89604641-927E-47FF-8DB6-91CF5C4976C1}.Release|x64.Build.0 = Release|x64
+<<<<<<< HEAD
 		{D8F814B1-337C-4292-B38A-2A63E8406535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D8F814B1-337C-4292-B38A-2A63E8406535}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8F814B1-337C-4292-B38A-2A63E8406535}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -191,6 +200,32 @@ Global
 		{BD86948A-E5F9-490E-B470-16A822E3EA4A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD86948A-E5F9-490E-B470-16A822E3EA4A}.Release|x64.ActiveCfg = Release|Any CPU
 		{BD86948A-E5F9-490E-B470-16A822E3EA4A}.Release|x64.Build.0 = Release|Any CPU
+=======
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Debug|x64.Build.0 = Debug|Any CPU
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Release|x64.ActiveCfg = Release|Any CPU
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Release|x64.Build.0 = Release|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Debug|x64.Build.0 = Debug|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Release|x64.ActiveCfg = Release|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Release|x64.Build.0 = Release|Any CPU
+		{01E89552-13A5-4A24-80B2-9246700F72FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E89552-13A5-4A24-80B2-9246700F72FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E89552-13A5-4A24-80B2-9246700F72FD}.Debug|x64.ActiveCfg = Debug|x64
+		{01E89552-13A5-4A24-80B2-9246700F72FD}.Debug|x64.Build.0 = Debug|x64
+		{01E89552-13A5-4A24-80B2-9246700F72FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E89552-13A5-4A24-80B2-9246700F72FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E89552-13A5-4A24-80B2-9246700F72FD}.Release|x64.ActiveCfg = Release|x64
+		{01E89552-13A5-4A24-80B2-9246700F72FD}.Release|x64.Build.0 = Release|x64
+>>>>>>> main
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
