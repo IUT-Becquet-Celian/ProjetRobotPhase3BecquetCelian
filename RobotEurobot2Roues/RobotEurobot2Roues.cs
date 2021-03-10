@@ -14,6 +14,7 @@ using StrategyManagerProjetEtudiantNS;
 using SciChart.Charting.Visuals;
 using Positioning2WheelsNS;
 using TrajectoryGeneratorNonHolonomeNS;
+using WorldMapManager;
 
 namespace RobotEurobot2Roues
 {
@@ -26,6 +27,7 @@ namespace RobotEurobot2Roues
         static MsgProcessor robotMsgProcessor;
         static XBoxController xBoxManette;
         static StrategyGenerique strategyManager;
+        static LocalWorldMapManager localWorldMapManager;
 
         static Positioning2Wheels positioning2Wheels;
         static TrajectoryGeneratorNonHolonome trajectoryGenerator;
@@ -53,6 +55,7 @@ namespace RobotEurobot2Roues
             robotMsgProcessor = new MsgProcessor(robotId, competition);
             xBoxManette = new XBoxControllerNS.XBoxController(robotId);
             strategyManager = new StrategyEurobot(robotId, teamId, "224.16.32.79");
+            localWorldMapManager = new LocalWorldMapManager(robotId, teamId, bypassMulticast: false);
             positioning2Wheels = new Positioning2Wheels();
             trajectoryGenerator = new TrajectoryGeneratorNonHolonome(robotId);
 
@@ -72,7 +75,7 @@ namespace RobotEurobot2Roues
 
             robotMsgProcessor.OnPolarOdometrySpeedFromRobotEvent += positioning2Wheels.OnOdometryRobotSpeedReceived;        //Envoi des vitesses reçues de l'embarqué au module de calcul de positionnement
             positioning2Wheels.OnCalculatedLocationEvent += trajectoryGenerator.OnPhysicalPositionReceived;                 //Envoi du positionnement calculé au module de génération de trajectoire
-            //trajectoryGenerator.OnGhostLocationEvent += localWorldMapManager.OnGhostLocationReceived;
+            trajectoryGenerator.OnGhostLocationEvent += localWorldMapManager.OnGhostLocationReceived;
 
             strategyManager.InitStrategy(); //à faire après avoir abonné les events !
 

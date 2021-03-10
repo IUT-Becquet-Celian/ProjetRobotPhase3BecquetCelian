@@ -146,6 +146,21 @@
         "runtime": {
           "bin/placeholder/WorldMap.dll": {}
         }
+      },
+      "WorldMapManager/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Constants": "1.0.0",
+          "EventArgsLibrary": "1.0.0",
+          "Utilities": "1.0.0",
+          "WorldMap": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WorldMapManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WorldMapManager.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.8/win": {
@@ -292,6 +307,21 @@
         },
         "runtime": {
           "bin/placeholder/WorldMap.dll": {}
+        }
+      },
+      "WorldMapManager/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Constants": "1.0.0",
+          "EventArgsLibrary": "1.0.0",
+          "Utilities": "1.0.0",
+          "WorldMap": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WorldMapManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WorldMapManager.dll": {}
         }
       }
     },
@@ -440,6 +470,21 @@
         "runtime": {
           "bin/placeholder/WorldMap.dll": {}
         }
+      },
+      "WorldMapManager/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Constants": "1.0.0",
+          "EventArgsLibrary": "1.0.0",
+          "Utilities": "1.0.0",
+          "WorldMap": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WorldMapManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WorldMapManager.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.8/win-x86": {
@@ -586,6 +631,21 @@
         },
         "runtime": {
           "bin/placeholder/WorldMap.dll": {}
+        }
+      },
+      "WorldMapManager/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Constants": "1.0.0",
+          "EventArgsLibrary": "1.0.0",
+          "Utilities": "1.0.0",
+          "WorldMap": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WorldMapManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WorldMapManager.dll": {}
         }
       }
     }
@@ -779,6 +839,11 @@
       "type": "project",
       "path": "../WorldMap/WorldMap.csproj",
       "msbuildProject": "../WorldMap/WorldMap.csproj"
+    },
+    "WorldMapManager/1.0.0": {
+      "type": "project",
+      "path": "../WorldMapManager/WorldMapManager.csproj",
+      "msbuildProject": "../WorldMapManager/WorldMapManager.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -787,7 +852,8 @@
       "SciChart >= 6.3.0.13476",
       "SharpDX >= 4.2.0",
       "SharpDX.XInput >= 4.2.0",
-      "WindowsBase >= 4.6.1055"
+      "WindowsBase >= 4.6.1055",
+      "WorldMapManager >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -817,6 +883,9 @@
           "projectReferences": {
             "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
               "projectPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj"
+            },
+            "C:\\Github\\ProjetRobotPhase3\\WorldMapManager\\WorldMapManager.csproj": {
+              "projectPath": "C:\\Github\\ProjetRobotPhase3\\WorldMapManager\\WorldMapManager.csproj"
             }
           }
         }

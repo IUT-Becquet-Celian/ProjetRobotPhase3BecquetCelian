@@ -130,6 +130,34 @@
         }
       }
     },
+    "C:\\Github\\ProjetRobotPhase3\\WorldMapManager\\WorldMapManager.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\WorldMapManager\\WorldMapManager.csproj",
+        "projectName": "WorldMapManager",
+        "projectPath": "C:\\Github\\ProjetRobotPhase3\\WorldMapManager\\WorldMapManager.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Constants\\Constants.csproj"
+              },
+              "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj"
+              },
+              "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\Utilities\\Utilities.csproj"
+              },
+              "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
     "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj": {
       "restore": {
         "projectUniqueName": "C:\\Github\\ProjetRobotPhase3\\WorldMap\\WorldMap.csproj",
@@ -176,6 +204,9 @@
             "projectReferences": {
               "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj": {
                 "projectPath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj"
+              },
+              "C:\\Github\\ProjetRobotPhase3\\WorldMapManager\\WorldMapManager.csproj": {
+                "projectPath": "C:\\Github\\ProjetRobotPhase3\\WorldMapManager\\WorldMapManager.csproj"
               }
             }
           }

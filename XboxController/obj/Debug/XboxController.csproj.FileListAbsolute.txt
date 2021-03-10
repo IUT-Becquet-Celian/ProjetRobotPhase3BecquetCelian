@@ -61,3 +61,5 @@ C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\SciChart.Core.dll
 C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\SciChart.Data.dll
 C:\GitHub\ProjetRobotPhase3\XboxController\bin\Debug\SciChart.Drawing.dll
 C:\Github\ProjetRobotPhase3\XboxController\obj\Debug\XboxController.csproj.CoreCompileInputs.cache
+C:\Github\ProjetRobotPhase3\XboxController\bin\Debug\WorldMapManager.dll
+C:\Github\ProjetRobotPhase3\XboxController\bin\Debug\WorldMapManager.pdb

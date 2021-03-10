@@ -115,3 +115,6 @@ C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\Positioning2Wheels.dll
 C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\TrajectoryGeneratorNonHolonome.dll
 C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\Positioning2Wheels.pdb
 C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\TrajectoryGeneratorNonHolonome.pdb
+C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\WorldMapManager.dll
+C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\ZeroFormatter.dll
+C:\Github\ProjetRobotPhase3\RobotEurobot2Roues\bin\Debug\WorldMapManager.pdb
