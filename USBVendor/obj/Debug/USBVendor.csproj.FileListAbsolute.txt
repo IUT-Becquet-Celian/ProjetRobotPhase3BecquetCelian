@@ -42,3 +42,4 @@ C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\bin\Debug\ICSharpCode.SharpZipLib.pdb
 C:\GitHub\ProjetRobotPhase3\USBVendor\obj\Debug\USBVendor.csproj.CopyComplete
+C:\Github\ProjetRobotPhase3\USBVendor\obj\Debug\USBVendor.csproj.CoreCompileInputs.cache

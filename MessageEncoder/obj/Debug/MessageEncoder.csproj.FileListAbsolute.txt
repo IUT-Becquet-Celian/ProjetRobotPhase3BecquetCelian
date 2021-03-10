@@ -40,3 +40,4 @@ C:\GitHub\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.csprojAssemb
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.csproj.CopyComplete
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.dll
 C:\GitHub\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.pdb
+C:\Github\ProjetRobotPhase3\MessageEncoder\obj\Debug\MessageEncoder.csproj.CoreCompileInputs.cache

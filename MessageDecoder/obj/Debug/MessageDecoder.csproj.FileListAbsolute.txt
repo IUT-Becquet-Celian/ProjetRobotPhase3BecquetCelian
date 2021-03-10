@@ -40,3 +40,4 @@ C:\GitHub\ProjetRobotPhase3\MessageDecoder\obj\Debug\MessageDecoder.csprojAssemb
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\obj\Debug\MessageDecoder.csproj.CopyComplete
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\obj\Debug\MessageDecoder.dll
 C:\GitHub\ProjetRobotPhase3\MessageDecoder\obj\Debug\MessageDecoder.pdb
+C:\Github\ProjetRobotPhase3\MessageDecoder\obj\Debug\MessageDecoder.csproj.CoreCompileInputs.cache

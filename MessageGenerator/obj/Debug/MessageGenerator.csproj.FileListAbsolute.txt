@@ -44,3 +44,4 @@ C:\GitHub\ProjetRobotPhase3\MessageGenerator\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\MessageGenerator\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\MessageGenerator\bin\Debug\ICSharpCode.SharpZipLib.pdb
 C:\GitHub\ProjetRobotPhase3\MessageGenerator\obj\Debug\MessageGenerator.csproj.CopyComplete
+C:\Github\ProjetRobotPhase3\MessageGenerator\obj\Debug\MessageGenerator.csproj.CoreCompileInputs.cache

@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAsservissementDisplay", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfWorldMapDisplay", "..\WpfWorldMapDisplay\WpfWorldMapDisplay.csproj", "{89604641-927E-47FF-8DB6-91CF5C4976C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Positioning2Wheels", "..\Positioning2Wheels\Positioning2Wheels.csproj", "{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrajectoryGeneratorNonHolonome", "..\TrajectoryGeneratorNonHolonome\TrajectoryGeneratorNonHolonome.csproj", "{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,22 @@ Global
 		{89604641-927E-47FF-8DB6-91CF5C4976C1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{89604641-927E-47FF-8DB6-91CF5C4976C1}.Release|x64.ActiveCfg = Release|x64
 		{89604641-927E-47FF-8DB6-91CF5C4976C1}.Release|x64.Build.0 = Release|x64
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Debug|x64.Build.0 = Debug|Any CPU
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Release|x64.ActiveCfg = Release|Any CPU
+		{E1EDDD83-8DD6-4C4A-9B8E-9D30B53E6FEA}.Release|x64.Build.0 = Release|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Debug|x64.Build.0 = Debug|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Release|x64.ActiveCfg = Release|Any CPU
+		{A90F4FFC-DC2B-489C-A90F-B2ACD3086BC6}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

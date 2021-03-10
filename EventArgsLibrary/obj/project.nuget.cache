@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "ZC2M9TU49JfgP1qffZvwJ343i5j5dCF7Jn+GO5hVOSNtXWIi04gVRyhYRA+WwV+qQ6uJOsOOqU1leg4gTkuZ8Q==",
+  "dgSpecHash": "cHmV27TiQ1QSCfcLAyv2C8ZWDv0rcw7TfayObXHPxgy8A6mnHl2sIsw0HH9x6lc4Er3ndPQ5qbbINK0aEyDX4w==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj",
+  "projectFilePath": "C:\\Github\\ProjetRobotPhase3\\EventArgsLibrary\\EventArgsLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vgies\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\vgies\\.nuget\\packages\\scichart\\6.3.0.13476\\scichart.6.3.0.13476.nupkg.sha512",
-    "C:\\Users\\vgies\\.nuget\\packages\\sharpziplib\\1.3.1\\sharpziplib.1.3.1.nupkg.sha512",
-    "C:\\Users\\vgies\\.nuget\\packages\\zeroformatter\\1.6.4\\zeroformatter.1.6.4.nupkg.sha512",
-    "C:\\Users\\vgies\\.nuget\\packages\\zeroformatter.interfaces\\1.6.4\\zeroformatter.interfaces.1.6.4.nupkg.sha512"
+    "C:\\Users\\Valentin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Valentin\\.nuget\\packages\\scichart\\6.3.0.13476\\scichart.6.3.0.13476.nupkg.sha512",
+    "C:\\Users\\Valentin\\.nuget\\packages\\sharpziplib\\1.3.1\\sharpziplib.1.3.1.nupkg.sha512",
+    "C:\\Users\\Valentin\\.nuget\\packages\\zeroformatter\\1.6.4\\zeroformatter.1.6.4.nupkg.sha512",
+    "C:\\Users\\Valentin\\.nuget\\packages\\zeroformatter.interfaces\\1.6.4\\zeroformatter.interfaces.1.6.4.nupkg.sha512"
   ],
   "logs": []
 }

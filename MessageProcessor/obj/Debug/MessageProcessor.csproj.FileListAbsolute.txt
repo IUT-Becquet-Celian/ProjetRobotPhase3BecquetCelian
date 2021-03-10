@@ -42,3 +42,4 @@ C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\Utilities.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\bin\Debug\ICSharpCode.SharpZipLib.pdb
 C:\GitHub\ProjetRobotPhase3\MessageProcessor\obj\Debug\MessageProcessor.csproj.CopyComplete
+C:\Github\ProjetRobotPhase3\MessageProcessor\obj\Debug\MessageProcessor.csproj.CoreCompileInputs.cache

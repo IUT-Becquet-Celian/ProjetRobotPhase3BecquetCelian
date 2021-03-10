@@ -49,3 +49,4 @@ C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\Utilities.pd
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\WorldMap.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\bin\Debug\ICSharpCode.SharpZipLib.pdb
 C:\GitHub\ProjetRobotPhase3\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.csproj.CopyComplete
+C:\Github\ProjetRobotPhase3\StrategyManagerProjetEtudiant\obj\Debug\StrategyManagerProjetEtudiant.csproj.CoreCompileInputs.cache

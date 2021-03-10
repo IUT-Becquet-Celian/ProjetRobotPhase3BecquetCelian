@@ -72,3 +72,4 @@ C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.g.re
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.Properties.Resources.resources
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.csproj.GenerateResource.cache
 C:\GitHub\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.csproj.CopyComplete
+C:\Github\ProjetRobotPhase3\WpfWorldMapDisplay\obj\Debug\WpfWorldMapDisplay.csproj.CoreCompileInputs.cache
